@@ -18,7 +18,6 @@ class SimDataset:
             thres_hold = 1.8
             mul_cof = 0.25
             logit_cof = 0.4
-            x = np.random.multivariate_normal(means, covs, sample_size)
             cof_t = np.random.rand(x_dim, t_dim)
             prob = x.dot(cof_t) * logit_cof
             # 这两行无所谓，看一下T生成的bias程度而已
