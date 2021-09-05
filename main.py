@@ -44,10 +44,10 @@ n = 10000  # 样本数量
 m = 4  # Confounder维度
 p = 20  # Treatment维度
 noise_dim = 10  # Observed Noise维度
-new_data = False  # 是否重新生成Simulation Data
+new_data = True  # 是否重新生成Simulation Data
 obs_idx = list(range(args.obsm))
 # Observed Covariate包括一部分Observed Confounder+Noisy Variable
-name = "Obs_confounder4_n10_t20_cor05_logit04"  # Simulation Data的名字
+name = "Obs_confounder4_n10_t20_jointcor05_logit04"  # Simulation Data的名字
 data = SimDataset(n, m, p, obs_idx, noise_dim, new_data, name)
 
 x, t, y, obs_x = data.getTrainData()
@@ -131,7 +131,7 @@ for rep in range(rep_times):
         y_loss_s = []
         for j in range(0, n, batch_size):
             op, ed = j, min(j + batch_size, n)
-            obsx_batch = torch.FloatTensor(obs_x[idx[op:ed]] * 0).to(device)
+            obsx_batch = torch.FloatTensor(obs_x[idx[op:ed]]).to(device)
             t_batch = torch.FloatTensor(t[idx[op:ed]]).to(device)
             y_batch = torch.FloatTensor(y[idx[op:ed]]).view(-1, 1).to(device)
 
@@ -173,7 +173,7 @@ for rep in range(rep_times):
         rec_loss_s = []
         for j in range(0, n, batch_size):
             op, ed = j, min(j + batch_size, n)
-            obsx_batch = torch.FloatTensor(obs_x[idx[op:ed]] * 0).to(device)
+            obsx_batch = torch.FloatTensor(obs_x[idx[op:ed]]).to(device)
             t_batch = torch.FloatTensor(t[idx[op:ed]]).to(device)
             y_batch = torch.FloatTensor(y[idx[op:ed]]).view(-1, 1).to(device)
             z_batch = i_vae.infer_post(obsx_batch, t_batch, y_batch, ifnoise=True)
@@ -206,7 +206,7 @@ for rep in range(rep_times):
         rec_loss_s = []
         for j in range(0, n, batch_size):
             op, ed = j, min(j + batch_size, n)
-            obsx_batch = torch.FloatTensor(obs_x[idx[op:ed]] * 0).to(device)
+            obsx_batch = torch.FloatTensor(obs_x[idx[op:ed]]).to(device)
             t_batch = torch.FloatTensor(t[idx[op:ed]]).to(device)
             y_batch = torch.FloatTensor(y[idx[op:ed]]).view(-1, 1).to(device)
             z_batch = i_vae.infer_post(obsx_batch, t_batch, y_batch, ifnoise=True)
@@ -232,7 +232,7 @@ for rep in range(rep_times):
     Train_y = np.zeros(n)
     for i in range(0, n, batch_size):
         op, ed = i, min(i + batch_size, n)
-        obsx_batch = torch.FloatTensor(obs_x[op:ed] * 0).to(device)
+        obsx_batch = torch.FloatTensor(obs_x[op:ed]).to(device)
         t_batch = torch.FloatTensor(t[op:ed]).to(device)
         y_batch = torch.FloatTensor(y[op:ed]).view(-1, 1).to(device)
         Train_y[op:ed] = i_vae.predict_post(
@@ -243,7 +243,7 @@ for rep in range(rep_times):
     Insample_y = np.zeros(n)
     for i in range(0, n, batch_size):
         op, ed = i, min(i + batch_size, n)
-        obsx_batch = torch.FloatTensor(obs_x[op:ed] * 0).to(device)
+        obsx_batch = torch.FloatTensor(obs_x[op:ed]).to(device)
         t_batch = torch.FloatTensor(t[op:ed]).to(device)
         y_batch = torch.FloatTensor(y[op:ed]).view(-1, 1).to(device)
         t_new_batch = torch.FloatTensor(t_test[op:ed]).to(device)

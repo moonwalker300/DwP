@@ -6,15 +6,15 @@ class SimDataset:
     def __init__(self, sample_size, x_dim, t_dim, obs_idx, noise_dim, ifnew, name):
         if ifnew:
             # mean和covs是confounder生成的mean和covs
-            means = np.zeros(x_dim)
-            covs = np.eye(x_dim) * 0.5 + 0.5
+            means = np.zeros(x_dim + noise_dim)
+            covs = np.eye(x_dim + noise_dim)
+            for i in range(x_dim + noise_dim - 1):
+                covs[i][i + 1] = 0.5
+                covs[i + 1][i] = 0.5
             # noise_mean和noise_covs是noise variable生成的mean和covs
-            noise_mean = np.zeros(noise_dim)
-            noise_covs = np.eye(noise_dim) * 1.0
-            for i in range(noise_dim - 1):
-                noise_covs[i][i + 1] = 0.5
-                noise_covs[i + 1][i] = 0.5
-            noise = np.random.multivariate_normal(noise_mean, noise_covs, sample_size)
+            covariate = np.random.multivariate_normal(means, covs, sample_size)
+            x = covariate[:, :x_dim]
+            noise = covariate[:, x_dim:]
             thres_hold = 1.8
             mul_cof = 0.25
             logit_cof = 0.4

@@ -251,8 +251,8 @@ class IVAE(nn.Module):
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     def neg_elbo(self, obsx, t, y):
-        prior_m = self.hid_prior_mean(obsx) * 0 + 1
-        prior_lv = self.hid_prior_logv(obsx) * 0 + 1
+        prior_m = self.hid_prior_mean(obsx)
+        prior_lv = self.hid_prior_logv(obsx)
         z_mean = self.encoder_mean(torch.cat((obsx, t, y), dim=1))
         z_logv = self.encoder_logv(torch.cat((obsx, t, y), dim=1))
 
