@@ -44,7 +44,7 @@ n = 10000  # 样本数量
 m = 4  # Confounder维度
 p = 20  # Treatment维度
 noise_dim = 10  # Observed Noise维度
-new_data = True  # 是否重新生成Simulation Data
+new_data = False  # 是否重新生成Simulation Data
 obs_idx = list(range(args.obsm))
 # Observed Covariate包括一部分Observed Confounder+Noisy Variable
 name = "Obs_confounder4_n10_t20_jointcor05_logit04"  # Simulation Data的名字
@@ -164,7 +164,7 @@ for rep in range(rep_times):
 
     # 这个是我们学到的Confounder表征重构Confounder
     filelog.log(colored("== Ours: Reconstructing confounder ==".format(rep + 1), "blue"))
-    rec_net = MLP(latent_dim, x.shape[1], 10, 3).to(device)
+    rec_net = MLP(latent_dim, x.shape[1], 20, 3).to(device)
     optimizer = optim.Adam(rec_net.parameters(), lr=0.005)
     euc = torch.nn.MSELoss(reduction="none")
     last_loss = 100000
@@ -197,7 +197,7 @@ for rep in range(rep_times):
 
     # 这个是我们学到的Confounder表征重构Noisy Variable,如果损失越大，越好，如果刚好等于noise_dim，说明与Noisy Variable完全独立
     filelog.log(colored("== Ours: Reconstructing noise ==".format(rep + 1), "blue"))
-    rec_net = MLP(latent_dim, obs_x.shape[1] - args.obsm, 10, 3).to(device)
+    rec_net = MLP(latent_dim, obs_x.shape[1] - args.obsm, 20, 3).to(device)
     optimizer = optim.Adam(rec_net.parameters(), lr=0.005)
     euc = torch.nn.MSELoss(reduction="none")
     last_loss = 100000
@@ -308,7 +308,7 @@ for rep in range(rep_times):
         #         last_loss = sum(loss_s) / n
 
     filelog.log(colored("== CEVAE: Reconstructing confounder ==".format(rep + 1), "blue"))
-    rec_net = MLP(latent_dim, x.shape[1], 10, 3).to(device)
+    rec_net = MLP(latent_dim, x.shape[1], 20, 3).to(device)
     optimizer = optim.Adam(rec_net.parameters(), lr=0.005)
     euc = torch.nn.MSELoss(reduction="none")
     last_loss = 100000
@@ -340,7 +340,7 @@ for rep in range(rep_times):
     rec_conf_cevae.append(last_loss)
 
     filelog.log(colored("== CEVAE: Reconstructing noise ==".format(rep + 1), "blue"))
-    rec_net = MLP(latent_dim, obs_x.shape[1] - args.obsm, 10, 3).to(device)
+    rec_net = MLP(latent_dim, obs_x.shape[1] - args.obsm, 20, 3).to(device)
     optimizer = optim.Adam(rec_net.parameters(), lr=0.005)
     euc = torch.nn.MSELoss(reduction="none")
     last_loss = 100000

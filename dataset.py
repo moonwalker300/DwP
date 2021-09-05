@@ -38,12 +38,12 @@ class SimDataset:
             )
             y_test = np.sum(tmp * t_test, axis=1) * mul_cof
 
-            x_out_test = np.random.multivariate_normal(means, covs, sample_size)
+            covariate_out = np.random.multivariate_normal(means, covs, sample_size)
+            x_out_test = covariate_out[:, :x_dim]
+            noise_out_test = covariate_out[:, x_dim:]
+                                    
             t_out_test = (0 < np.random.normal(0, 1, size=[sample_size, t_dim])).astype(
                 np.int32
-            )
-            noise_out_test = np.random.multivariate_normal(
-                noise_mean, noise_covs, sample_size
             )
             tmp = x_out_test.dot(cof_y)
             y_out_test = np.sum(tmp * t_out_test, axis=1) * mul_cof
