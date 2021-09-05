@@ -1,0 +1,3 @@
+#!/bin/bash
+python main.py --obsm 0 --latdim 2
+python main.py --obsm 0 --latdim 1
