@@ -47,7 +47,7 @@ noise_dim = 10  # Observed Noise维度
 new_data = False  # 是否重新生成Simulation Data
 obs_idx = list(range(args.obsm))
 # Observed Covariate包括一部分Observed Confounder+Noisy Variable
-name = "Obs_confounder4_n10_t20_jointcor05_logit04"  # Simulation Data的名字
+name = "Obs_confounder4_n10_t20_cor05_logit10"  # Simulation Data的名字
 data = SimDataset(n, m, p, obs_idx, noise_dim, new_data, name)
 
 x, t, y, obs_x = data.getTrainData()
@@ -59,14 +59,15 @@ x_out_test, t_out_test, y_out_test, obs_x_out = data.getOutTestData()
 file_name = name + "_obs" + str(args.obsm)
 filelog = Log("res_{}.txt".format(file_name))
 
-filelog.log("Experiment Start!Ours Prior N[1, e]")
+filelog.log("Experiment Start!")
 filelog.log(str(args))
 filelog.log("Y Mean %f, Std %f " % (np.mean(y), np.std(y)))
 filelog.log('Observe confounder %d, Noise %d dimension' % (args.obsm, noise_dim))
 
 obsm = obs_x.shape[1]
-obs_x = obs_x[:, : obsm - args.mask]  # 这是是我想Mask掉几维Noise Variable的。可以忽略
-obs_x_out = obs_x_out[:, : obsm - args.mask]
+obs_x[:, obsm - args.mask:] = 0 # 这是是我想Mask掉几维Noise Variable的。可以忽略
+obs_x_out[:, obsm - args.mask:] = 0
+
 obsm = obs_x.shape[1]
 filelog.log("Learning Rate %f" % (lr))
 
