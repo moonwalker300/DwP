@@ -44,10 +44,10 @@ n = 10000  # 样本数量
 m = 4  # Confounder维度
 p = 20  # Treatment维度
 noise_dim = 10  # Observed Noise维度
-new_data = False  # 是否重新生成Simulation Data
+new_data = False # 是否重新生成Simulation Data
 obs_idx = list(range(args.obsm))
 # Observed Covariate包括一部分Observed Confounder+Noisy Variable
-name = "Obs_confounder4_n10_t20_cor05_logit10"  # Simulation Data的名字
+name = "Obs_confounder4_n10_t20_cor00_logit10"  # Simulation Data的名字
 data = SimDataset(n, m, p, obs_idx, noise_dim, new_data, name)
 
 x, t, y, obs_x = data.getTrainData()
@@ -62,6 +62,7 @@ filelog = Log("res_{}.txt".format(file_name))
 filelog.log("Experiment Start!")
 filelog.log(str(args))
 filelog.log("Y Mean %f, Std %f " % (np.mean(y), np.std(y)))
+filelog.log("Test Y Mean %f, Std %f " % (np.mean(y_test), np.std(y_test)))
 filelog.log('Observe confounder %d, Noise %d dimension' % (args.obsm, noise_dim))
 
 obsm = obs_x.shape[1]
@@ -396,9 +397,53 @@ for rep in range(rep_times):
         )
     filelog.log("Insample Error %f" % (RMSE(Insample_y, y_test)))
     m2.append(RMSE(Insample_y, y_test))
+    
+    filelog.log(colored("== Direct Regression: Training all ==".format(rep + 1), "blue"))
+    infer_x = obs_x.copy()
+    pre_test = PredictTest(infer_x.shape[1], p, 
+            learning_rate=0.001, hidden_dim=y_hidden, n_layers=y_layers).to(device)
 
+    last_loss = 100000
+    for ep in range(epochs):
+        idx = np.random.permutation(n)
+        pre_loss_s = []
+        for j in range(0, n, batch_size):
+            op, ed = j, min(j + batch_size, n)
+            x_batch = torch.FloatTensor(infer_x[idx[op:ed]]).to(device)
+            t_batch = torch.FloatTensor(t[idx[op:ed]]).to(device)
+            y_batch = torch.FloatTensor(y[idx[op:ed]]).view(-1, 1).to(device)
+            pre_loss = pre_test.optimize(x_batch, t_batch, y_batch)
+            pre_loss_s.append(pre_loss * (ed - op))
+        if (ep + 1) % 50 == 0:
+            filelog.log("Epoch %d " % (ep))
+            filelog.log("Prediction Loss: %f" % (sum(pre_loss_s) / n))
+        current_loss = sum(pre_loss_s) / n
+        if current_loss < last_loss:
+            last_loss = current_loss
+            last_epoch = ep
+        if ep - last_epoch > 20:
+            break
+    filelog.log(colored("== Direct Regression: Testing in sample performance ==".format(rep + 1), "blue"))
+    Train_y = np.zeros(n)
+    for i in range(0, n, batch_size):
+        op, ed = i, min(i + batch_size, n)
+        x_batch = torch.FloatTensor(infer_x[op:ed]).to(device)
+        t_batch = torch.FloatTensor(t[op:ed]).to(device)
+        Train_y[op:ed] = pre_test.predict(x_batch, t_batch)
+
+    # In-sample
+    Insample_y = np.zeros(n)
+    for i in range(0, n, batch_size):
+        op, ed = i, min(i + batch_size, n)
+        x_batch = torch.FloatTensor(infer_x[op:ed]).to(device)
+        t_batch = torch.FloatTensor(t_test[op:ed]).to(device)
+        Insample_y[op:ed] = pre_test.predict(x_batch, t_batch)
+    print('Train Error', RMSE(Train_y, y))
+    print('Insample Error', RMSE(Insample_y, y_test))
+    m3.append(RMSE(Insample_y, y_test))
 m1 = np.array(m1)
 m2 = np.array(m2)
+m3 = np.array(m3)
 mt = np.array(mt)
 mt2 = np.array(mt2)
 m2 = m2[~np.isnan(m2)]
@@ -424,6 +469,9 @@ for i in range(m1.shape[0]):
 filelog.log("CEVAE, Insample RMSE")
 for i in range(m2.shape[0]):
     filelog.log("%.4f, " % m2[i])
+filelog.log("Direct Regression, Insample RMSE")
+for i in range(m3.shape[0]):
+    filelog.log("%.4f, " % m3[i])
 
 output = ""
 output += "Train, RMSE mean %.4f std %.4f\n" % (mt.mean(), mt.std())
@@ -441,13 +489,22 @@ try:
 except:
     pass
 try:
-    output += "CEVAE, RMSE mean %.4f std %.4f, reconstruct confounder %.4f (%.4f) noise %.4f (%.4f)" % (
+    output += "CEVAE, RMSE mean %.4f std %.4f, reconstruct confounder %.4f (%.4f) noise %.4f (%.4f)\n" % (
         m2.mean(),
         m2.std(),
         np.mean(rec_conf_cevae),
         np.std(rec_conf_cevae),
         np.mean(rec_noise_cevae),
         np.std(rec_noise_cevae),
+    )
+
+except:
+    pass
+
+try:
+    output += "Direct Regression, RMSE mean %.4f std %.4f" % (
+        m3.mean(),
+        m3.std(),
     )
 
 except:

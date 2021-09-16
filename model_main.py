@@ -667,41 +667,26 @@ class PreNet(nn.Module):
         return xt
 
 
-class PredictTest:
+class PredictTest(nn.Module):
     def __init__(self, x_dim, t_dim, learning_rate, hidden_dim, n_layers):
+        super().__init__()
         self.pre_net = MLP(x_dim + t_dim, 1, hidden_dim, n_layers)
         self.optimizer = optim.Adam(
             self.pre_net.parameters(), lr=learning_rate, weight_decay=0.0000
         )
         self.mseloss = nn.MSELoss(reduction="none")
-        self.scheduler = optim.lr_scheduler.ExponentialLR(self.optimizer, gamma=0.9)
 
-    def optimize(self, x, t, y, w):
+    def optimize(self, x, t, y):
         self.optimizer.zero_grad()
         pre_y = self.pre_net(torch.cat((x, t), dim=1))
-        loss = (self.mseloss(pre_y, y) * w).mean()
+        loss = self.mseloss(pre_y, y).mean()
         loss.backward()
         self.optimizer.step()
         return loss.item()
 
     def predict(self, x, t):
         pre_y = self.pre_net(torch.cat((x, t), dim=1))
-        pre_y = pre_y.detach().numpy().squeeze()
+        pre_y = pre_y.detach().cpu().numpy().squeeze()
         return pre_y
 
-    def adjust_lr(self):
-        self.scheduler.step()
 
-    def look(self):
-        w1 = self.pre_net.fc[0].weight.detach().numpy()
-        w2 = self.pre_net.fc[1].weight.detach().numpy()
-        w3 = self.pre_net.fc[2].weight.detach().numpy()
-        print(np.square(w1).mean())
-        print(np.square(w2).mean())
-        print(np.square(w3).mean())
-        print(w3)
-        print(np.sum(np.square(w1), axis=0))
-        print(np.sum(np.square(w3.dot(w2.dot(w1))), axis=0))
-        print(np.square(w3.dot(w2.dot(w1))).sum())
-        tt = np.sum(np.square(w3.dot(w2.dot(w1))), axis=0)
-        print(np.sum(tt[:1]), np.sum(tt[1:5]), np.sum(tt[5:]))

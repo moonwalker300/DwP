@@ -7,7 +7,7 @@ class SimDataset:
         if ifnew:
             # mean和covs是confounder生成的mean和covs
             means = np.zeros(x_dim)
-            covs = np.eye(x_dim) * 0.5 + 0.5
+            covs = np.eye(x_dim) * 1.0 + 0.0
             # noise_mean和noise_covs是noise variable生成的mean和covs
             x = np.random.multivariate_normal(means, covs, sample_size)
             noise = np.random.normal(0.0, 1.0, size = [sample_size, noise_dim])
@@ -16,7 +16,7 @@ class SimDataset:
             thres_hold = 1.8
             mul_cof = 0.2
             logit_cof = 1.0
-            cof_t = np.random.randn(x_dim, t_dim)
+            cof_t = np.random.rand(x_dim, t_dim) * 2 - 1.0
             prob = x.dot(cof_t) * logit_cof
             # 这两行无所谓，看一下T生成的bias程度而已
             lh = stats.norm.cdf(prob, loc=0, scale=thres_hold)
@@ -24,8 +24,8 @@ class SimDataset:
 
             prob += np.random.normal(0, thres_hold, size=prob.shape)
             t = (0 < prob).astype(np.int32)
-            cof_y = np.random.normal(0, 2, size=[x_dim, t_dim]) #/ 2 + cof_t
-
+            cof_y = np.random.normal(0, 1, size=[x_dim, t_dim]) / 2 + cof_t + 1.0
+            print(((cof_t * cof_y).sum()) / (np.sqrt((cof_t * cof_t).sum()) * np.sqrt((cof_y * cof_y).sum())))
             tmp = x.dot(cof_y)
             y = np.sum(tmp * t, axis=1) * mul_cof
             eps = 0
