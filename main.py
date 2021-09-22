@@ -25,19 +25,22 @@ def RMSE(pre, target):
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-l", type=float, default=0.00005, help="learning rate")
+parser.add_argument("--cevaelr", type=float, default=0.00005, help="CEVAE learning rate")
+parser.add_argument("-l", type=float, default=0.001, help="learning rate")
 parser.add_argument("-decay", type=float, default=0.000)
 parser.add_argument("--latdim", type=int, default=4, help="Latent Dimension")
 parser.add_argument("--obsm", type=int, default=0, help="Observed Dimension")
-parser.add_argument("--ycof", type=float, default=0.5, help="www")
+parser.add_argument("--ycof", type=float, default=0.5, help="Y cof")
 parser.add_argument("--mask", type=int, default=0, help="Mask ObsX")
 parser.add_argument("--ylayer", type=int, default=50, help="Y Layer Dimension")
 parser.add_argument("--nlayer", type=int, default=50, help="N Layer Dimension")
+parser.add_argument("--stop", type=int, default=2000, help="Stop Epochs")
 args = parser.parse_args()
 lr = args.l
+cevae_lr = args.cevaelr
 latent_dim = args.latdim
 y_cof = args.ycof
-
+stop = args.stop
 # np.set_printoptions(threshold=10000)
 # np.set_printoptions(suppress=True)
 n = 10000  # 样本数量
@@ -47,7 +50,7 @@ noise_dim = 10  # Observed Noise维度
 new_data = False # 是否重新生成Simulation Data
 obs_idx = list(range(args.obsm))
 # Observed Covariate包括一部分Observed Confounder+Noisy Variable
-name = "Obs_confounder4_n10_t20_cor00_logit10"  # Simulation Data的名字
+name = "Obs_confounder4_n10_t20_cor00_logit10_2"  # Simulation Data的名字
 data = SimDataset(n, m, p, obs_idx, noise_dim, new_data, name)
 
 x, t, y, obs_x = data.getTrainData()
@@ -68,7 +71,6 @@ filelog.log('Observe confounder %d, Noise %d dimension' % (args.obsm, noise_dim)
 obsm = obs_x.shape[1]
 obs_x[:, obsm - args.mask:] = 0 # 这是是我想Mask掉几维Noise Variable的。可以忽略
 obs_x_out[:, obsm - args.mask:] = 0
-
 obsm = obs_x.shape[1]
 filelog.log("Learning Rate %f" % (lr))
 
@@ -78,7 +80,7 @@ y_layers = 3
 y_hidden = args.ylayer
 epochs = 3000
 batch_size = 1024
-rep_times = 10
+rep_times = 5
 m1 = []
 m2 = []
 m3 = []
@@ -156,7 +158,7 @@ for rep in range(rep_times):
         if current_loss < last_loss:
             last_loss = current_loss
             last_epoch = ep
-        if ep - last_epoch > 20:
+        if ep - last_epoch > stop:
             break
         # if (ep + 1) % 50 == 0:
         #     if sum(loss_s) / n >= last_loss * 1.00:
@@ -257,10 +259,11 @@ for rep in range(rep_times):
     m1.append(RMSE(Insample_y, y_test))
     mt.append(RMSE(Train_y, y))
 
+    manual_seed(rep)
     # CEVAE，下面几块和前面是类似的
     cevae = CEVAE(
         latent_dim, hidden_size, p, obsm, n_layers, y_layers, y_hidden, 
-        learning_rate=lr, y_cof=y_cof
+        learning_rate=cevae_lr, y_cof=y_cof
     ).to(device)
     filelog.log(colored("== CEVAE: Training all ==".format(rep + 1), "blue"))
 
@@ -301,7 +304,7 @@ for rep in range(rep_times):
         if current_loss < last_loss:
             last_loss = current_loss
             last_epoch = ep
-        if ep - last_epoch > 20:
+        if ep - last_epoch > stop:
             break
         # if (ep + 1) % 50 == 0:
         #     if sum(loss_s) / n >= last_loss * 1.00:
@@ -398,13 +401,14 @@ for rep in range(rep_times):
     filelog.log("Insample Error %f" % (RMSE(Insample_y, y_test)))
     m2.append(RMSE(Insample_y, y_test))
     
+    manual_seed(rep)
     filelog.log(colored("== Direct Regression: Training all ==".format(rep + 1), "blue"))
     infer_x = obs_x.copy()
     pre_test = PredictTest(infer_x.shape[1], p, 
             learning_rate=0.001, hidden_dim=y_hidden, n_layers=y_layers).to(device)
 
     last_loss = 100000
-    for ep in range(epochs):
+    for ep in range(epochs * 2):
         idx = np.random.permutation(n)
         pre_loss_s = []
         for j in range(0, n, batch_size):
@@ -421,7 +425,7 @@ for rep in range(rep_times):
         if current_loss < last_loss:
             last_loss = current_loss
             last_epoch = ep
-        if ep - last_epoch > 20:
+        if ep - last_epoch > stop:
             break
     filelog.log(colored("== Direct Regression: Testing in sample performance ==".format(rep + 1), "blue"))
     Train_y = np.zeros(n)
@@ -438,8 +442,8 @@ for rep in range(rep_times):
         x_batch = torch.FloatTensor(infer_x[op:ed]).to(device)
         t_batch = torch.FloatTensor(t_test[op:ed]).to(device)
         Insample_y[op:ed] = pre_test.predict(x_batch, t_batch)
-    print('Train Error', RMSE(Train_y, y))
-    print('Insample Error', RMSE(Insample_y, y_test))
+    filelog.log("Train Error %f" % (RMSE(Train_y, y)))
+    filelog.log("Insample Error %f" % (RMSE(Insample_y, y_test)))
     m3.append(RMSE(Insample_y, y_test))
 m1 = np.array(m1)
 m2 = np.array(m2)

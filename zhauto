@@ -1,12 +1,6 @@
 #!/bin/bash
-python main.py --obsm 0 --latdim 5
-python main.py --obsm 1 --latdim 5
-python main.py --obsm 2 --latdim 5
-python main.py --obsm 3 --latdim 5
-python main.py --obsm 4 --latdim 5
-
-python main.py --obsm 0 --latdim 6
-python main.py --obsm 1 --latdim 6
-python main.py --obsm 2 --latdim 6
-python main.py --obsm 3 --latdim 6
-python main.py --obsm 4 --latdim 6
+python main.py --obsm 0
+python main.py --obsm 1
+python main.py --obsm 2
+python main.py --obsm 3
+python main.py --obsm 4
