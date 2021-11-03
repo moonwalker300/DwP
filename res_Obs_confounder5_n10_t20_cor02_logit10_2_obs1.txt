@@ -1,0 +1,5402 @@
+Experiment Start!
+Namespace(cevaelr=5e-05, decay=0.0, l=0.001, latdim=5, mask=0, nlayer=50, obsm=1, stop=5000, ycof=0.5, ylayer=50)
+Y Mean 2.205023, Std 6.062071 
+Test Y Mean 0.014789, Std 6.023035 
+Observe confounder 1, Noise 10 dimension
+Learning Rate 0.001000
+[31m========== repeat time 1 ==========[0m
+[34m== Ours: Training all ==[0m
+Epoch 49 
+Overall Loss: 13.824818
+Rec Loss: 11.415379
+KL Loss: 2.409439
+Y Loss: 1.080577
+T Loss: 10.875090
+Epoch 99 
+Overall Loss: 13.443532
+Rec Loss: 10.371900
+KL Loss: 3.071633
+Y Loss: 1.016112
+T Loss: 9.863844
+Epoch 149 
+Overall Loss: 13.366117
+Rec Loss: 10.129282
+KL Loss: 3.236835
+Y Loss: 1.058691
+T Loss: 9.599936
+Epoch 199 
+Overall Loss: 13.317722
+Rec Loss: 10.032971
+KL Loss: 3.284751
+Y Loss: 0.997481
+T Loss: 9.534230
+Epoch 249 
+Overall Loss: 13.323875
+Rec Loss: 10.013047
+KL Loss: 3.310828
+Y Loss: 1.026274
+T Loss: 9.499910
+Epoch 299 
+Overall Loss: 13.321637
+Rec Loss: 9.999393
+KL Loss: 3.322244
+Y Loss: 0.991218
+T Loss: 9.503784
+Epoch 349 
+Overall Loss: 13.282599
+Rec Loss: 9.981899
+KL Loss: 3.300700
+Y Loss: 1.006791
+T Loss: 9.478504
+Epoch 399 
+Overall Loss: 13.284419
+Rec Loss: 9.949129
+KL Loss: 3.335290
+Y Loss: 1.026812
+T Loss: 9.435723
+Epoch 449 
+Overall Loss: 13.272558
+Rec Loss: 9.935785
+KL Loss: 3.336773
+Y Loss: 0.999792
+T Loss: 9.435889
+Epoch 499 
+Overall Loss: 13.247690
+Rec Loss: 9.956749
+KL Loss: 3.290940
+Y Loss: 1.020831
+T Loss: 9.446334
+Epoch 549 
+Overall Loss: 13.235112
+Rec Loss: 9.920779
+KL Loss: 3.314333
+Y Loss: 0.998510
+T Loss: 9.421524
+Epoch 599 
+Overall Loss: 13.249757
+Rec Loss: 9.935698
+KL Loss: 3.314059
+Y Loss: 1.037634
+T Loss: 9.416881
+Epoch 649 
+Overall Loss: 13.248927
+Rec Loss: 9.911170
+KL Loss: 3.337756
+Y Loss: 1.008565
+T Loss: 9.406888
+Epoch 699 
+Overall Loss: 13.257748
+Rec Loss: 9.906608
+KL Loss: 3.351140
+Y Loss: 1.011804
+T Loss: 9.400706
+Epoch 749 
+Overall Loss: 13.236949
+Rec Loss: 9.898204
+KL Loss: 3.338745
+Y Loss: 0.993552
+T Loss: 9.401428
+Epoch 799 
+Overall Loss: 13.216963
+Rec Loss: 9.910271
+KL Loss: 3.306692
+Y Loss: 1.058820
+T Loss: 9.380861
+Epoch 849 
+Overall Loss: 13.198091
+Rec Loss: 9.860278
+KL Loss: 3.337814
+Y Loss: 0.954745
+T Loss: 9.382905
+Epoch 899 
+Overall Loss: 13.200557
+Rec Loss: 9.875299
+KL Loss: 3.325257
+Y Loss: 1.010427
+T Loss: 9.370086
+Epoch 949 
+Overall Loss: 13.212738
+Rec Loss: 9.873650
+KL Loss: 3.339087
+Y Loss: 0.992122
+T Loss: 9.377589
+Epoch 999 
+Overall Loss: 13.180515
+Rec Loss: 9.878626
+KL Loss: 3.301890
+Y Loss: 1.000735
+T Loss: 9.378258
+Epoch 1049 
+Overall Loss: 13.184641
+Rec Loss: 9.854271
+KL Loss: 3.330370
+Y Loss: 0.999669
+T Loss: 9.354437
+Epoch 1099 
+Overall Loss: 13.186940
+Rec Loss: 9.870355
+KL Loss: 3.316584
+Y Loss: 1.002513
+T Loss: 9.369099
+Epoch 1149 
+Overall Loss: 13.165623
+Rec Loss: 9.848286
+KL Loss: 3.317338
+Y Loss: 1.002089
+T Loss: 9.347241
+Epoch 1199 
+Overall Loss: 13.156390
+Rec Loss: 9.845494
+KL Loss: 3.310896
+Y Loss: 0.973800
+T Loss: 9.358593
+Epoch 1249 
+Overall Loss: 13.173070
+Rec Loss: 9.847575
+KL Loss: 3.325494
+Y Loss: 1.002789
+T Loss: 9.346180
+Epoch 1299 
+Overall Loss: 13.170170
+Rec Loss: 9.856517
+KL Loss: 3.313654
+Y Loss: 0.990257
+T Loss: 9.361388
+Epoch 1349 
+Overall Loss: 13.186314
+Rec Loss: 9.861582
+KL Loss: 3.324732
+Y Loss: 1.000278
+T Loss: 9.361443
+Epoch 1399 
+Overall Loss: 13.120423
+Rec Loss: 9.855257
+KL Loss: 3.265166
+Y Loss: 1.045744
+T Loss: 9.332385
+Epoch 1449 
+Overall Loss: 13.181823
+Rec Loss: 9.854258
+KL Loss: 3.327565
+Y Loss: 1.017221
+T Loss: 9.345648
+Epoch 1499 
+Overall Loss: 13.143367
+Rec Loss: 9.836177
+KL Loss: 3.307190
+Y Loss: 1.040697
+T Loss: 9.315829
+Epoch 1549 
+Overall Loss: 13.133855
+Rec Loss: 9.833237
+KL Loss: 3.300617
+Y Loss: 1.049080
+T Loss: 9.308698
+Epoch 1599 
+Overall Loss: 13.116489
+Rec Loss: 9.837982
+KL Loss: 3.278507
+Y Loss: 1.004966
+T Loss: 9.335499
+Epoch 1649 
+Overall Loss: 13.166684
+Rec Loss: 9.860739
+KL Loss: 3.305945
+Y Loss: 1.037210
+T Loss: 9.342134
+Epoch 1699 
+Overall Loss: 13.149011
+Rec Loss: 9.841370
+KL Loss: 3.307641
+Y Loss: 1.014016
+T Loss: 9.334361
+Epoch 1749 
+Overall Loss: 13.134483
+Rec Loss: 9.812577
+KL Loss: 3.321906
+Y Loss: 0.992783
+T Loss: 9.316185
+Epoch 1799 
+Overall Loss: 13.136860
+Rec Loss: 9.775268
+KL Loss: 3.361592
+Y Loss: 0.970292
+T Loss: 9.290122
+Epoch 1849 
+Overall Loss: 13.102579
+Rec Loss: 9.815141
+KL Loss: 3.287439
+Y Loss: 0.996892
+T Loss: 9.316695
+Epoch 1899 
+Overall Loss: 13.121753
+Rec Loss: 9.797202
+KL Loss: 3.324551
+Y Loss: 0.980486
+T Loss: 9.306960
+Epoch 1949 
+Overall Loss: 13.127187
+Rec Loss: 9.801717
+KL Loss: 3.325470
+Y Loss: 1.001643
+T Loss: 9.300895
+Epoch 1999 
+Overall Loss: 13.107135
+Rec Loss: 9.797916
+KL Loss: 3.309219
+Y Loss: 0.998856
+T Loss: 9.298488
+Epoch 2049 
+Overall Loss: 13.100405
+Rec Loss: 9.816865
+KL Loss: 3.283540
+Y Loss: 1.032428
+T Loss: 9.300650
+Epoch 2099 
+Overall Loss: 13.115303
+Rec Loss: 9.806463
+KL Loss: 3.308840
+Y Loss: 1.017427
+T Loss: 9.297750
+Epoch 2149 
+Overall Loss: 13.104813
+Rec Loss: 9.819541
+KL Loss: 3.285271
+Y Loss: 1.024684
+T Loss: 9.307199
+Epoch 2199 
+Overall Loss: 13.079235
+Rec Loss: 9.787762
+KL Loss: 3.291473
+Y Loss: 1.005730
+T Loss: 9.284897
+Epoch 2249 
+Overall Loss: 13.109578
+Rec Loss: 9.808702
+KL Loss: 3.300876
+Y Loss: 1.014163
+T Loss: 9.301620
+Epoch 2299 
+Overall Loss: 13.082905
+Rec Loss: 9.755913
+KL Loss: 3.326991
+Y Loss: 0.986127
+T Loss: 9.262849
+Epoch 2349 
+Overall Loss: 13.123096
+Rec Loss: 9.798957
+KL Loss: 3.324139
+Y Loss: 1.014258
+T Loss: 9.291828
+Epoch 2399 
+Overall Loss: 13.070803
+Rec Loss: 9.750999
+KL Loss: 3.319803
+Y Loss: 0.972108
+T Loss: 9.264946
+Epoch 2449 
+Overall Loss: 13.081044
+Rec Loss: 9.766267
+KL Loss: 3.314776
+Y Loss: 1.034901
+T Loss: 9.248817
+Epoch 2499 
+Overall Loss: 13.079655
+Rec Loss: 9.773489
+KL Loss: 3.306167
+Y Loss: 1.002810
+T Loss: 9.272083
+Epoch 2549 
+Overall Loss: 13.062360
+Rec Loss: 9.771257
+KL Loss: 3.291103
+Y Loss: 0.982024
+T Loss: 9.280245
+Epoch 2599 
+Overall Loss: 13.073039
+Rec Loss: 9.782529
+KL Loss: 3.290510
+Y Loss: 1.001002
+T Loss: 9.282027
+Epoch 2649 
+Overall Loss: 13.088771
+Rec Loss: 9.774841
+KL Loss: 3.313929
+Y Loss: 1.037571
+T Loss: 9.256056
+Epoch 2699 
+Overall Loss: 13.056595
+Rec Loss: 9.770380
+KL Loss: 3.286215
+Y Loss: 1.004703
+T Loss: 9.268028
+Epoch 2749 
+Overall Loss: 13.081902
+Rec Loss: 9.756964
+KL Loss: 3.324938
+Y Loss: 0.989002
+T Loss: 9.262463
+Epoch 2799 
+Overall Loss: 13.035393
+Rec Loss: 9.749269
+KL Loss: 3.286123
+Y Loss: 1.000056
+T Loss: 9.249242
+Epoch 2849 
+Overall Loss: 13.068635
+Rec Loss: 9.751602
+KL Loss: 3.317033
+Y Loss: 1.005998
+T Loss: 9.248603
+Epoch 2899 
+Overall Loss: 13.056705
+Rec Loss: 9.736681
+KL Loss: 3.320024
+Y Loss: 1.009462
+T Loss: 9.231950
+Epoch 2949 
+Overall Loss: 13.061998
+Rec Loss: 9.770417
+KL Loss: 3.291581
+Y Loss: 0.995701
+T Loss: 9.272567
+Epoch 2999 
+Overall Loss: 13.034195
+Rec Loss: 9.764787
+KL Loss: 3.269409
+Y Loss: 1.000372
+T Loss: 9.264601
+[34m== Ours: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 1.515420
+Epoch 99
+Rec Loss: 1.493154
+Epoch 149
+Rec Loss: 1.487265
+Epoch 199
+Rec Loss: 1.480700
+Epoch 249
+Rec Loss: 1.492415
+[34m== Ours: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 9.823106
+Epoch 99
+Rec Loss: 9.814212
+Epoch 149
+Rec Loss: 9.814197
+Epoch 199
+Rec Loss: 9.812074
+Epoch 249
+Rec Loss: 9.807555
+Epoch 299
+Rec Loss: 9.806611
+Epoch 349
+Rec Loss: 9.786194
+Epoch 399
+Rec Loss: 9.802121
+[34m== Ours: Testing in sample performance ==[0m
+Train Error: 0.366445
+Insample Error: 3.499198
+[34m== CEVAE: Training all ==[0m
+Epoch 49 
+Overall Loss: 24.968051
+Rec Loss: 20.231067
+KL Loss: 4.736984
+Y Loss: 12.277402
+T Loss: 13.053457
+X Loss: 1.038909
+[34m== CEVAE: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 3.476837
+Epoch 99
+Rec Loss: 3.472856
+Epoch 149
+Rec Loss: 3.467958
+Epoch 199
+Rec Loss: 3.470371
+[34m== CEVAE: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 3.097931
+Epoch 99
+Rec Loss: 3.070506
+Epoch 149
+Rec Loss: 3.083898
+[34m== CEVAE: Testing in sample performance ==[0m
+Train Error 2.686550
+Insample Error 3.810183
+[34m== Direct Regression: Training all ==[0m
+Epoch 49 
+Prediction Loss: 12.561669
+Epoch 99 
+Prediction Loss: 11.742038
+Epoch 149 
+Prediction Loss: 11.176539
+Epoch 199 
+Prediction Loss: 10.743502
+Epoch 249 
+Prediction Loss: 10.580058
+Epoch 299 
+Prediction Loss: 10.371686
+Epoch 349 
+Prediction Loss: 10.284821
+Epoch 399 
+Prediction Loss: 10.156501
+Epoch 449 
+Prediction Loss: 10.118140
+Epoch 499 
+Prediction Loss: 9.969030
+Epoch 549 
+Prediction Loss: 9.957418
+Epoch 599 
+Prediction Loss: 9.780866
+Epoch 649 
+Prediction Loss: 9.829967
+Epoch 699 
+Prediction Loss: 9.652243
+Epoch 749 
+Prediction Loss: 9.528748
+Epoch 799 
+Prediction Loss: 9.448135
+Epoch 849 
+Prediction Loss: 9.388697
+Epoch 899 
+Prediction Loss: 9.255271
+Epoch 949 
+Prediction Loss: 9.203096
+Epoch 999 
+Prediction Loss: 9.149587
+Epoch 1049 
+Prediction Loss: 9.081235
+Epoch 1099 
+Prediction Loss: 9.000572
+Epoch 1149 
+Prediction Loss: 8.915189
+Epoch 1199 
+Prediction Loss: 8.884985
+Epoch 1249 
+Prediction Loss: 8.738443
+Epoch 1299 
+Prediction Loss: 8.665185
+Epoch 1349 
+Prediction Loss: 8.774274
+Epoch 1399 
+Prediction Loss: 8.532898
+Epoch 1449 
+Prediction Loss: 8.500049
+Epoch 1499 
+Prediction Loss: 8.403348
+Epoch 1549 
+Prediction Loss: 8.339514
+Epoch 1599 
+Prediction Loss: 8.238376
+Epoch 1649 
+Prediction Loss: 8.245420
+Epoch 1699 
+Prediction Loss: 8.118919
+Epoch 1749 
+Prediction Loss: 8.169898
+Epoch 1799 
+Prediction Loss: 8.028565
+Epoch 1849 
+Prediction Loss: 8.000047
+Epoch 1899 
+Prediction Loss: 7.927755
+Epoch 1949 
+Prediction Loss: 7.868802
+Epoch 1999 
+Prediction Loss: 8.019618
+Epoch 2049 
+Prediction Loss: 7.767912
+Epoch 2099 
+Prediction Loss: 7.865046
+Epoch 2149 
+Prediction Loss: 7.729738
+Epoch 2199 
+Prediction Loss: 7.683858
+Epoch 2249 
+Prediction Loss: 7.592844
+Epoch 2299 
+Prediction Loss: 7.583779
+Epoch 2349 
+Prediction Loss: 7.499109
+Epoch 2399 
+Prediction Loss: 7.744263
+Epoch 2449 
+Prediction Loss: 7.437159
+Epoch 2499 
+Prediction Loss: 7.376423
+Epoch 2549 
+Prediction Loss: 7.337751
+Epoch 2599 
+Prediction Loss: 7.247312
+Epoch 2649 
+Prediction Loss: 7.282722
+Epoch 2699 
+Prediction Loss: 7.234307
+Epoch 2749 
+Prediction Loss: 7.133872
+Epoch 2799 
+Prediction Loss: 7.147200
+Epoch 2849 
+Prediction Loss: 7.183682
+Epoch 2899 
+Prediction Loss: 7.058451
+Epoch 2949 
+Prediction Loss: 6.984734
+Epoch 2999 
+Prediction Loss: 7.206773
+[34m== Direct Regression: Testing in sample performance ==[0m
+Train Error 2.642189
+Insample Error 6.323388
+[31m========== repeat time 2 ==========[0m
+[34m== Ours: Training all ==[0m
+Epoch 49 
+Overall Loss: 13.647431
+Rec Loss: 10.806836
+KL Loss: 2.840595
+Y Loss: 1.030981
+T Loss: 10.291345
+Epoch 99 
+Overall Loss: 13.494174
+Rec Loss: 10.559945
+KL Loss: 2.934229
+Y Loss: 1.061360
+T Loss: 10.029265
+Epoch 149 
+Overall Loss: 13.381172
+Rec Loss: 10.071522
+KL Loss: 3.309650
+Y Loss: 0.982914
+T Loss: 9.580065
+Epoch 199 
+Overall Loss: 13.306921
+Rec Loss: 10.011066
+KL Loss: 3.295855
+Y Loss: 1.017470
+T Loss: 9.502331
+Epoch 249 
+Overall Loss: 13.309063
+Rec Loss: 9.968636
+KL Loss: 3.340428
+Y Loss: 0.971019
+T Loss: 9.483126
+Epoch 299 
+Overall Loss: 13.289891
+Rec Loss: 9.972020
+KL Loss: 3.317871
+Y Loss: 1.045005
+T Loss: 9.449518
+Epoch 349 
+Overall Loss: 13.272084
+Rec Loss: 9.938582
+KL Loss: 3.333502
+Y Loss: 0.989755
+T Loss: 9.443704
+Epoch 399 
+Overall Loss: 13.277734
+Rec Loss: 9.930940
+KL Loss: 3.346793
+Y Loss: 1.003035
+T Loss: 9.429423
+Epoch 449 
+Overall Loss: 13.272804
+Rec Loss: 9.948482
+KL Loss: 3.324322
+Y Loss: 1.056719
+T Loss: 9.420122
+Epoch 499 
+Overall Loss: 13.268231
+Rec Loss: 9.912600
+KL Loss: 3.355631
+Y Loss: 0.990015
+T Loss: 9.417592
+Epoch 549 
+Overall Loss: 13.251413
+Rec Loss: 9.911756
+KL Loss: 3.339656
+Y Loss: 1.012489
+T Loss: 9.405512
+Epoch 599 
+Overall Loss: 13.235604
+Rec Loss: 9.891432
+KL Loss: 3.344171
+Y Loss: 0.986048
+T Loss: 9.398408
+Epoch 649 
+Overall Loss: 13.233482
+Rec Loss: 9.902437
+KL Loss: 3.331044
+Y Loss: 1.015726
+T Loss: 9.394575
+Epoch 699 
+Overall Loss: 13.215481
+Rec Loss: 9.884392
+KL Loss: 3.331090
+Y Loss: 1.004094
+T Loss: 9.382344
+Epoch 749 
+Overall Loss: 13.222148
+Rec Loss: 9.890332
+KL Loss: 3.331816
+Y Loss: 0.999138
+T Loss: 9.390762
+Epoch 799 
+Overall Loss: 13.223116
+Rec Loss: 9.878501
+KL Loss: 3.344616
+Y Loss: 1.025733
+T Loss: 9.365634
+Epoch 849 
+Overall Loss: 13.208714
+Rec Loss: 9.890317
+KL Loss: 3.318397
+Y Loss: 1.029151
+T Loss: 9.375742
+Epoch 899 
+Overall Loss: 13.220200
+Rec Loss: 9.879851
+KL Loss: 3.340349
+Y Loss: 1.009488
+T Loss: 9.375108
+Epoch 949 
+Overall Loss: 13.196613
+Rec Loss: 9.837579
+KL Loss: 3.359034
+Y Loss: 0.985485
+T Loss: 9.344836
+Epoch 999 
+Overall Loss: 13.187624
+Rec Loss: 9.854853
+KL Loss: 3.332771
+Y Loss: 1.007067
+T Loss: 9.351319
+Epoch 1049 
+Overall Loss: 13.177457
+Rec Loss: 9.869098
+KL Loss: 3.308359
+Y Loss: 0.994012
+T Loss: 9.372092
+Epoch 1099 
+Overall Loss: 13.190217
+Rec Loss: 9.831504
+KL Loss: 3.358714
+Y Loss: 0.979183
+T Loss: 9.341912
+Epoch 1149 
+Overall Loss: 13.185839
+Rec Loss: 9.862085
+KL Loss: 3.323753
+Y Loss: 1.041871
+T Loss: 9.341150
+Epoch 1199 
+Overall Loss: 13.165000
+Rec Loss: 9.825281
+KL Loss: 3.339719
+Y Loss: 1.004994
+T Loss: 9.322784
+Epoch 1249 
+Overall Loss: 13.148567
+Rec Loss: 9.841110
+KL Loss: 3.307457
+Y Loss: 1.030044
+T Loss: 9.326089
+Epoch 1299 
+Overall Loss: 13.168498
+Rec Loss: 9.855423
+KL Loss: 3.313074
+Y Loss: 1.031886
+T Loss: 9.339481
+Epoch 1349 
+Overall Loss: 13.165805
+Rec Loss: 9.828664
+KL Loss: 3.337141
+Y Loss: 0.997879
+T Loss: 9.329725
+Epoch 1399 
+Overall Loss: 13.182616
+Rec Loss: 9.824291
+KL Loss: 3.358325
+Y Loss: 1.017946
+T Loss: 9.315319
+Epoch 1449 
+Overall Loss: 13.161381
+Rec Loss: 9.852678
+KL Loss: 3.308703
+Y Loss: 1.055603
+T Loss: 9.324876
+Epoch 1499 
+Overall Loss: 13.141434
+Rec Loss: 9.810627
+KL Loss: 3.330807
+Y Loss: 0.990836
+T Loss: 9.315209
+Epoch 1549 
+Overall Loss: 13.121977
+Rec Loss: 9.800911
+KL Loss: 3.321066
+Y Loss: 0.978012
+T Loss: 9.311905
+Epoch 1599 
+Overall Loss: 13.140102
+Rec Loss: 9.836381
+KL Loss: 3.303722
+Y Loss: 1.042451
+T Loss: 9.315155
+Epoch 1649 
+Overall Loss: 13.148088
+Rec Loss: 9.822951
+KL Loss: 3.325137
+Y Loss: 1.057875
+T Loss: 9.294014
+Epoch 1699 
+Overall Loss: 13.125071
+Rec Loss: 9.810300
+KL Loss: 3.314771
+Y Loss: 1.009638
+T Loss: 9.305481
+Epoch 1749 
+Overall Loss: 13.154372
+Rec Loss: 9.811065
+KL Loss: 3.343307
+Y Loss: 1.020382
+T Loss: 9.300874
+Epoch 1799 
+Overall Loss: 13.108780
+Rec Loss: 9.790284
+KL Loss: 3.318496
+Y Loss: 0.976056
+T Loss: 9.302256
+Epoch 1849 
+Overall Loss: 13.100879
+Rec Loss: 9.763160
+KL Loss: 3.337720
+Y Loss: 1.026330
+T Loss: 9.249994
+Epoch 1899 
+Overall Loss: 13.113271
+Rec Loss: 9.804495
+KL Loss: 3.308776
+Y Loss: 1.015617
+T Loss: 9.296686
+Epoch 1949 
+Overall Loss: 13.125150
+Rec Loss: 9.810758
+KL Loss: 3.314392
+Y Loss: 1.025763
+T Loss: 9.297877
+Epoch 1999 
+Overall Loss: 13.105238
+Rec Loss: 9.788827
+KL Loss: 3.316411
+Y Loss: 0.990902
+T Loss: 9.293376
+Epoch 2049 
+Overall Loss: 13.103206
+Rec Loss: 9.815180
+KL Loss: 3.288026
+Y Loss: 1.013865
+T Loss: 9.308248
+Epoch 2099 
+Overall Loss: 13.120149
+Rec Loss: 9.826828
+KL Loss: 3.293320
+Y Loss: 1.043905
+T Loss: 9.304876
+Epoch 2149 
+Overall Loss: 13.091846
+Rec Loss: 9.765646
+KL Loss: 3.326200
+Y Loss: 0.966544
+T Loss: 9.282374
+Epoch 2199 
+Overall Loss: 13.085969
+Rec Loss: 9.773434
+KL Loss: 3.312535
+Y Loss: 0.999640
+T Loss: 9.273614
+Epoch 2249 
+Overall Loss: 13.056274
+Rec Loss: 9.777684
+KL Loss: 3.278591
+Y Loss: 0.989505
+T Loss: 9.282931
+Epoch 2299 
+Overall Loss: 13.101915
+Rec Loss: 9.735615
+KL Loss: 3.366300
+Y Loss: 0.942851
+T Loss: 9.264189
+Epoch 2349 
+Overall Loss: 13.066196
+Rec Loss: 9.782063
+KL Loss: 3.284133
+Y Loss: 1.015082
+T Loss: 9.274522
+Epoch 2399 
+Overall Loss: 13.064821
+Rec Loss: 9.779473
+KL Loss: 3.285349
+Y Loss: 0.996937
+T Loss: 9.281004
+Epoch 2449 
+Overall Loss: 13.085660
+Rec Loss: 9.752301
+KL Loss: 3.333360
+Y Loss: 0.998847
+T Loss: 9.252877
+Epoch 2499 
+Overall Loss: 13.058295
+Rec Loss: 9.782583
+KL Loss: 3.275712
+Y Loss: 1.007981
+T Loss: 9.278593
+Epoch 2549 
+Overall Loss: 13.062568
+Rec Loss: 9.759596
+KL Loss: 3.302972
+Y Loss: 0.970313
+T Loss: 9.274439
+Epoch 2599 
+Overall Loss: 13.051412
+Rec Loss: 9.744061
+KL Loss: 3.307351
+Y Loss: 0.977712
+T Loss: 9.255205
+Epoch 2649 
+Overall Loss: 13.023158
+Rec Loss: 9.723643
+KL Loss: 3.299516
+Y Loss: 0.969501
+T Loss: 9.238892
+Epoch 2699 
+Overall Loss: 13.056980
+Rec Loss: 9.753266
+KL Loss: 3.303714
+Y Loss: 1.014038
+T Loss: 9.246247
+Epoch 2749 
+Overall Loss: 13.061779
+Rec Loss: 9.776160
+KL Loss: 3.285619
+Y Loss: 0.975026
+T Loss: 9.288647
+Epoch 2799 
+Overall Loss: 13.031055
+Rec Loss: 9.735735
+KL Loss: 3.295320
+Y Loss: 0.983300
+T Loss: 9.244085
+Epoch 2849 
+Overall Loss: 13.043103
+Rec Loss: 9.746985
+KL Loss: 3.296118
+Y Loss: 0.976703
+T Loss: 9.258633
+Epoch 2899 
+Overall Loss: 13.051769
+Rec Loss: 9.730140
+KL Loss: 3.321628
+Y Loss: 0.993237
+T Loss: 9.233521
+Epoch 2949 
+Overall Loss: 13.033196
+Rec Loss: 9.730603
+KL Loss: 3.302593
+Y Loss: 0.987937
+T Loss: 9.236635
+Epoch 2999 
+Overall Loss: 13.038213
+Rec Loss: 9.729995
+KL Loss: 3.308217
+Y Loss: 0.980320
+T Loss: 9.239836
+[34m== Ours: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 1.467033
+Epoch 99
+Rec Loss: 1.479187
+[34m== Ours: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 9.820244
+Epoch 99
+Rec Loss: 9.800601
+Epoch 149
+Rec Loss: 9.794035
+Epoch 199
+Rec Loss: 9.803743
+[34m== Ours: Testing in sample performance ==[0m
+Train Error: 0.358330
+Insample Error: 3.030543
+[34m== CEVAE: Training all ==[0m
+Epoch 49 
+Overall Loss: 25.430187
+Rec Loss: 20.925085
+KL Loss: 4.505102
+Y Loss: 13.756604
+T Loss: 13.073844
+X Loss: 0.972939
+[34m== CEVAE: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 3.485092
+Epoch 99
+Rec Loss: 3.485927
+[34m== CEVAE: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 2.946742
+Epoch 99
+Rec Loss: 2.936903
+Epoch 149
+Rec Loss: 2.926017
+Epoch 199
+Rec Loss: 2.944863
+[34m== CEVAE: Testing in sample performance ==[0m
+Train Error 2.872028
+Insample Error 3.946293
+[34m== Direct Regression: Training all ==[0m
+Epoch 49 
+Prediction Loss: 12.490032
+Epoch 99 
+Prediction Loss: 11.586036
+Epoch 149 
+Prediction Loss: 10.988585
+Epoch 199 
+Prediction Loss: 10.821739
+Epoch 249 
+Prediction Loss: 10.698858
+Epoch 299 
+Prediction Loss: 10.544726
+Epoch 349 
+Prediction Loss: 10.445550
+Epoch 399 
+Prediction Loss: 10.349242
+Epoch 449 
+Prediction Loss: 10.232086
+Epoch 499 
+Prediction Loss: 10.145936
+Epoch 549 
+Prediction Loss: 10.133641
+Epoch 599 
+Prediction Loss: 10.022900
+Epoch 649 
+Prediction Loss: 9.934717
+Epoch 699 
+Prediction Loss: 9.854369
+Epoch 749 
+Prediction Loss: 9.837192
+Epoch 799 
+Prediction Loss: 9.766796
+Epoch 849 
+Prediction Loss: 9.759109
+Epoch 899 
+Prediction Loss: 9.669229
+Epoch 949 
+Prediction Loss: 9.560216
+Epoch 999 
+Prediction Loss: 9.613508
+Epoch 1049 
+Prediction Loss: 9.567051
+Epoch 1099 
+Prediction Loss: 9.419737
+Epoch 1149 
+Prediction Loss: 9.391298
+Epoch 1199 
+Prediction Loss: 9.374970
+Epoch 1249 
+Prediction Loss: 9.305971
+Epoch 1299 
+Prediction Loss: 9.221343
+Epoch 1349 
+Prediction Loss: 9.215333
+Epoch 1399 
+Prediction Loss: 9.158971
+Epoch 1449 
+Prediction Loss: 9.205825
+Epoch 1499 
+Prediction Loss: 9.012027
+Epoch 1549 
+Prediction Loss: 9.005944
+Epoch 1599 
+Prediction Loss: 8.966012
+Epoch 1649 
+Prediction Loss: 8.933223
+Epoch 1699 
+Prediction Loss: 8.862653
+Epoch 1749 
+Prediction Loss: 8.916897
+Epoch 1799 
+Prediction Loss: 8.750856
+Epoch 1849 
+Prediction Loss: 8.748068
+Epoch 1899 
+Prediction Loss: 8.660981
+Epoch 1949 
+Prediction Loss: 8.708727
+Epoch 1999 
+Prediction Loss: 8.583217
+Epoch 2049 
+Prediction Loss: 8.793329
+Epoch 2099 
+Prediction Loss: 8.491501
+Epoch 2149 
+Prediction Loss: 8.457822
+Epoch 2199 
+Prediction Loss: 8.507278
+Epoch 2249 
+Prediction Loss: 8.511995
+Epoch 2299 
+Prediction Loss: 8.365605
+Epoch 2349 
+Prediction Loss: 8.297633
+Epoch 2399 
+Prediction Loss: 8.250719
+Epoch 2449 
+Prediction Loss: 8.202149
+Epoch 2499 
+Prediction Loss: 8.242211
+Epoch 2549 
+Prediction Loss: 8.126446
+Epoch 2599 
+Prediction Loss: 8.116942
+Epoch 2649 
+Prediction Loss: 8.063433
+Epoch 2699 
+Prediction Loss: 8.000626
+Epoch 2749 
+Prediction Loss: 8.023138
+Epoch 2799 
+Prediction Loss: 8.045332
+Epoch 2849 
+Prediction Loss: 8.129284
+Epoch 2899 
+Prediction Loss: 7.950407
+Epoch 2949 
+Prediction Loss: 7.859147
+Epoch 2999 
+Prediction Loss: 7.821505
+[34m== Direct Regression: Testing in sample performance ==[0m
+Train Error 2.792664
+Insample Error 6.161484
+[31m========== repeat time 3 ==========[0m
+[34m== Ours: Training all ==[0m
+Epoch 49 
+Overall Loss: 13.572900
+Rec Loss: 10.726994
+KL Loss: 2.845906
+Y Loss: 1.078670
+T Loss: 10.187659
+Epoch 99 
+Overall Loss: 13.372198
+Rec Loss: 10.120262
+KL Loss: 3.251937
+Y Loss: 1.014724
+T Loss: 9.612900
+Epoch 149 
+Overall Loss: 13.376921
+Rec Loss: 10.048352
+KL Loss: 3.328569
+Y Loss: 1.001202
+T Loss: 9.547751
+Epoch 199 
+Overall Loss: 13.340754
+Rec Loss: 9.992862
+KL Loss: 3.347893
+Y Loss: 0.989104
+T Loss: 9.498309
+Epoch 249 
+Overall Loss: 13.321297
+Rec Loss: 9.960978
+KL Loss: 3.360319
+Y Loss: 0.983297
+T Loss: 9.469329
+Epoch 299 
+Overall Loss: 13.297667
+Rec Loss: 9.967657
+KL Loss: 3.330010
+Y Loss: 1.036076
+T Loss: 9.449619
+Epoch 349 
+Overall Loss: 13.299087
+Rec Loss: 9.981132
+KL Loss: 3.317955
+Y Loss: 1.015433
+T Loss: 9.473416
+Epoch 399 
+Overall Loss: 13.287807
+Rec Loss: 9.943467
+KL Loss: 3.344340
+Y Loss: 0.993154
+T Loss: 9.446891
+Epoch 449 
+Overall Loss: 13.290311
+Rec Loss: 9.931636
+KL Loss: 3.358675
+Y Loss: 1.002439
+T Loss: 9.430416
+Epoch 499 
+Overall Loss: 13.263978
+Rec Loss: 9.902814
+KL Loss: 3.361163
+Y Loss: 1.007167
+T Loss: 9.399231
+Epoch 549 
+Overall Loss: 13.270287
+Rec Loss: 9.898244
+KL Loss: 3.372043
+Y Loss: 1.013166
+T Loss: 9.391661
+Epoch 599 
+Overall Loss: 13.257013
+Rec Loss: 9.895648
+KL Loss: 3.361365
+Y Loss: 0.979094
+T Loss: 9.406101
+Epoch 649 
+Overall Loss: 13.221572
+Rec Loss: 9.878211
+KL Loss: 3.343361
+Y Loss: 0.982320
+T Loss: 9.387051
+Epoch 699 
+Overall Loss: 13.231186
+Rec Loss: 9.886042
+KL Loss: 3.345144
+Y Loss: 1.012481
+T Loss: 9.379802
+Epoch 749 
+Overall Loss: 13.236462
+Rec Loss: 9.877061
+KL Loss: 3.359400
+Y Loss: 1.028819
+T Loss: 9.362652
+Epoch 799 
+Overall Loss: 13.226263
+Rec Loss: 9.857279
+KL Loss: 3.368983
+Y Loss: 0.969836
+T Loss: 9.372361
+Epoch 849 
+Overall Loss: 13.214257
+Rec Loss: 9.861365
+KL Loss: 3.352891
+Y Loss: 1.015570
+T Loss: 9.353580
+Epoch 899 
+Overall Loss: 13.197198
+Rec Loss: 9.858102
+KL Loss: 3.339096
+Y Loss: 1.010900
+T Loss: 9.352652
+Epoch 949 
+Overall Loss: 13.189156
+Rec Loss: 9.854214
+KL Loss: 3.334941
+Y Loss: 1.011383
+T Loss: 9.348523
+Epoch 999 
+Overall Loss: 13.184160
+Rec Loss: 9.815985
+KL Loss: 3.368175
+Y Loss: 0.964791
+T Loss: 9.333589
+Epoch 1049 
+Overall Loss: 13.186467
+Rec Loss: 9.853614
+KL Loss: 3.332852
+Y Loss: 1.007564
+T Loss: 9.349832
+Epoch 1099 
+Overall Loss: 13.190787
+Rec Loss: 9.820124
+KL Loss: 3.370662
+Y Loss: 0.995571
+T Loss: 9.322339
+Epoch 1149 
+Overall Loss: 13.158754
+Rec Loss: 9.807539
+KL Loss: 3.351215
+Y Loss: 0.991909
+T Loss: 9.311584
+Epoch 1199 
+Overall Loss: 13.164811
+Rec Loss: 9.808826
+KL Loss: 3.355984
+Y Loss: 1.000038
+T Loss: 9.308808
+Epoch 1249 
+Overall Loss: 13.181454
+Rec Loss: 9.816883
+KL Loss: 3.364572
+Y Loss: 0.980417
+T Loss: 9.326674
+Epoch 1299 
+Overall Loss: 13.189941
+Rec Loss: 9.859731
+KL Loss: 3.330211
+Y Loss: 1.020752
+T Loss: 9.349354
+Epoch 1349 
+Overall Loss: 13.148581
+Rec Loss: 9.814100
+KL Loss: 3.334481
+Y Loss: 1.005404
+T Loss: 9.311398
+Epoch 1399 
+Overall Loss: 13.159499
+Rec Loss: 9.807039
+KL Loss: 3.352459
+Y Loss: 1.004014
+T Loss: 9.305033
+Epoch 1449 
+Overall Loss: 13.150364
+Rec Loss: 9.790398
+KL Loss: 3.359966
+Y Loss: 1.002808
+T Loss: 9.288994
+Epoch 1499 
+Overall Loss: 13.143809
+Rec Loss: 9.826950
+KL Loss: 3.316859
+Y Loss: 1.034362
+T Loss: 9.309769
+Epoch 1549 
+Overall Loss: 13.159783
+Rec Loss: 9.847991
+KL Loss: 3.311792
+Y Loss: 1.021889
+T Loss: 9.337046
+Epoch 1599 
+Overall Loss: 13.128871
+Rec Loss: 9.842835
+KL Loss: 3.286035
+Y Loss: 1.049420
+T Loss: 9.318126
+Epoch 1649 
+Overall Loss: 13.162553
+Rec Loss: 9.811842
+KL Loss: 3.350711
+Y Loss: 1.013740
+T Loss: 9.304972
+Epoch 1699 
+Overall Loss: 13.146990
+Rec Loss: 9.799806
+KL Loss: 3.347184
+Y Loss: 1.011603
+T Loss: 9.294005
+Epoch 1749 
+Overall Loss: 13.142695
+Rec Loss: 9.838269
+KL Loss: 3.304426
+Y Loss: 1.025272
+T Loss: 9.325633
+Epoch 1799 
+Overall Loss: 13.127700
+Rec Loss: 9.810413
+KL Loss: 3.317287
+Y Loss: 1.020168
+T Loss: 9.300329
+Epoch 1849 
+Overall Loss: 13.097435
+Rec Loss: 9.794334
+KL Loss: 3.303101
+Y Loss: 1.017630
+T Loss: 9.285518
+Epoch 1899 
+Overall Loss: 13.120014
+Rec Loss: 9.777678
+KL Loss: 3.342337
+Y Loss: 1.015569
+T Loss: 9.269893
+Epoch 1949 
+Overall Loss: 13.123423
+Rec Loss: 9.774701
+KL Loss: 3.348722
+Y Loss: 1.001778
+T Loss: 9.273811
+Epoch 1999 
+Overall Loss: 13.057774
+Rec Loss: 9.772548
+KL Loss: 3.285226
+Y Loss: 1.021018
+T Loss: 9.262039
+Epoch 2049 
+Overall Loss: 13.070300
+Rec Loss: 9.753955
+KL Loss: 3.316345
+Y Loss: 0.991191
+T Loss: 9.258359
+Epoch 2099 
+Overall Loss: 13.104271
+Rec Loss: 9.786833
+KL Loss: 3.317438
+Y Loss: 1.022826
+T Loss: 9.275420
+Epoch 2149 
+Overall Loss: 13.095518
+Rec Loss: 9.786695
+KL Loss: 3.308823
+Y Loss: 1.022227
+T Loss: 9.275582
+Epoch 2199 
+Overall Loss: 13.105226
+Rec Loss: 9.780369
+KL Loss: 3.324857
+Y Loss: 1.012094
+T Loss: 9.274321
+Epoch 2249 
+Overall Loss: 13.072702
+Rec Loss: 9.781292
+KL Loss: 3.291410
+Y Loss: 1.017512
+T Loss: 9.272536
+Epoch 2299 
+Overall Loss: 13.108483
+Rec Loss: 9.759226
+KL Loss: 3.349257
+Y Loss: 1.012687
+T Loss: 9.252883
+Epoch 2349 
+Overall Loss: 13.051396
+Rec Loss: 9.733027
+KL Loss: 3.318370
+Y Loss: 0.987417
+T Loss: 9.239319
+Epoch 2399 
+Overall Loss: 13.081871
+Rec Loss: 9.775762
+KL Loss: 3.306108
+Y Loss: 1.011993
+T Loss: 9.269766
+Epoch 2449 
+Overall Loss: 13.056952
+Rec Loss: 9.773503
+KL Loss: 3.283449
+Y Loss: 1.014398
+T Loss: 9.266304
+Epoch 2499 
+Overall Loss: 13.069380
+Rec Loss: 9.750819
+KL Loss: 3.318562
+Y Loss: 1.007430
+T Loss: 9.247103
+Epoch 2549 
+Overall Loss: 13.075474
+Rec Loss: 9.777024
+KL Loss: 3.298450
+Y Loss: 1.032665
+T Loss: 9.260692
+Epoch 2599 
+Overall Loss: 13.077563
+Rec Loss: 9.753657
+KL Loss: 3.323906
+Y Loss: 0.964630
+T Loss: 9.271343
+Epoch 2649 
+Overall Loss: 13.069809
+Rec Loss: 9.756940
+KL Loss: 3.312870
+Y Loss: 0.981778
+T Loss: 9.266051
+Epoch 2699 
+Overall Loss: 13.043021
+Rec Loss: 9.747459
+KL Loss: 3.295561
+Y Loss: 1.004720
+T Loss: 9.245099
+Epoch 2749 
+Overall Loss: 13.063671
+Rec Loss: 9.741634
+KL Loss: 3.322037
+Y Loss: 1.012159
+T Loss: 9.235555
+Epoch 2799 
+Overall Loss: 13.067590
+Rec Loss: 9.741844
+KL Loss: 3.325746
+Y Loss: 1.005900
+T Loss: 9.238894
+Epoch 2849 
+Overall Loss: 13.060365
+Rec Loss: 9.732822
+KL Loss: 3.327543
+Y Loss: 1.011506
+T Loss: 9.227069
+Epoch 2899 
+Overall Loss: 13.063881
+Rec Loss: 9.754979
+KL Loss: 3.308902
+Y Loss: 1.025046
+T Loss: 9.242456
+Epoch 2949 
+Overall Loss: 13.021109
+Rec Loss: 9.723096
+KL Loss: 3.298013
+Y Loss: 0.968607
+T Loss: 9.238792
+Epoch 2999 
+Overall Loss: 13.027867
+Rec Loss: 9.723267
+KL Loss: 3.304600
+Y Loss: 1.003303
+T Loss: 9.221616
+[34m== Ours: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 1.439350
+Epoch 99
+Rec Loss: 1.426612
+Epoch 149
+Rec Loss: 1.425120
+Epoch 199
+Rec Loss: 1.440572
+[34m== Ours: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 9.812687
+Epoch 99
+Rec Loss: 9.806843
+Epoch 149
+Rec Loss: 9.796571
+Epoch 199
+Rec Loss: 9.809447
+[34m== Ours: Testing in sample performance ==[0m
+Train Error: 0.347842
+Insample Error: 2.689271
+[34m== CEVAE: Training all ==[0m
+Epoch 49 
+Overall Loss: 26.241474
+Rec Loss: 21.763679
+KL Loss: 4.477795
+Y Loss: 15.414383
+T Loss: 13.112284
+X Loss: 0.944204
+[34m== CEVAE: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 3.500783
+Epoch 99
+Rec Loss: 3.487185
+Epoch 149
+Rec Loss: 3.494613
+[34m== CEVAE: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 3.093019
+Epoch 99
+Rec Loss: 3.100191
+[34m== CEVAE: Testing in sample performance ==[0m
+Train Error 3.100412
+Insample Error 4.012451
+[34m== Direct Regression: Training all ==[0m
+Epoch 49 
+Prediction Loss: 12.540239
+Epoch 99 
+Prediction Loss: 11.547016
+Epoch 149 
+Prediction Loss: 10.963287
+Epoch 199 
+Prediction Loss: 10.824535
+Epoch 249 
+Prediction Loss: 10.486971
+Epoch 299 
+Prediction Loss: 10.374275
+Epoch 349 
+Prediction Loss: 10.258127
+Epoch 399 
+Prediction Loss: 10.372288
+Epoch 449 
+Prediction Loss: 10.051872
+Epoch 499 
+Prediction Loss: 9.937302
+Epoch 549 
+Prediction Loss: 9.896863
+Epoch 599 
+Prediction Loss: 9.798499
+Epoch 649 
+Prediction Loss: 9.707882
+Epoch 699 
+Prediction Loss: 9.605804
+Epoch 749 
+Prediction Loss: 9.534657
+Epoch 799 
+Prediction Loss: 9.491958
+Epoch 849 
+Prediction Loss: 9.351403
+Epoch 899 
+Prediction Loss: 9.291461
+Epoch 949 
+Prediction Loss: 9.274967
+Epoch 999 
+Prediction Loss: 9.161882
+Epoch 1049 
+Prediction Loss: 9.136534
+Epoch 1099 
+Prediction Loss: 8.974561
+Epoch 1149 
+Prediction Loss: 8.939719
+Epoch 1199 
+Prediction Loss: 8.829880
+Epoch 1249 
+Prediction Loss: 8.838109
+Epoch 1299 
+Prediction Loss: 8.854749
+Epoch 1349 
+Prediction Loss: 8.662041
+Epoch 1399 
+Prediction Loss: 8.570541
+Epoch 1449 
+Prediction Loss: 8.515824
+Epoch 1499 
+Prediction Loss: 8.426458
+Epoch 1549 
+Prediction Loss: 8.428860
+Epoch 1599 
+Prediction Loss: 8.254240
+Epoch 1649 
+Prediction Loss: 8.370057
+Epoch 1699 
+Prediction Loss: 8.156537
+Epoch 1749 
+Prediction Loss: 8.150432
+Epoch 1799 
+Prediction Loss: 8.073633
+Epoch 1849 
+Prediction Loss: 7.979515
+Epoch 1899 
+Prediction Loss: 7.935458
+Epoch 1949 
+Prediction Loss: 7.897483
+Epoch 1999 
+Prediction Loss: 7.820266
+Epoch 2049 
+Prediction Loss: 7.768412
+Epoch 2099 
+Prediction Loss: 7.783670
+Epoch 2149 
+Prediction Loss: 7.814173
+Epoch 2199 
+Prediction Loss: 7.616169
+Epoch 2249 
+Prediction Loss: 7.543725
+Epoch 2299 
+Prediction Loss: 7.898077
+Epoch 2349 
+Prediction Loss: 7.469717
+Epoch 2399 
+Prediction Loss: 7.415261
+Epoch 2449 
+Prediction Loss: 7.351228
+Epoch 2499 
+Prediction Loss: 7.308275
+Epoch 2549 
+Prediction Loss: 7.293405
+Epoch 2599 
+Prediction Loss: 7.274319
+Epoch 2649 
+Prediction Loss: 7.191567
+Epoch 2699 
+Prediction Loss: 7.231121
+Epoch 2749 
+Prediction Loss: 7.180633
+Epoch 2799 
+Prediction Loss: 7.066185
+Epoch 2849 
+Prediction Loss: 7.033931
+Epoch 2899 
+Prediction Loss: 7.014177
+Epoch 2949 
+Prediction Loss: 6.955381
+Epoch 2999 
+Prediction Loss: 6.978573
+[34m== Direct Regression: Testing in sample performance ==[0m
+Train Error 2.616035
+Insample Error 6.321257
+[31m========== repeat time 4 ==========[0m
+[34m== Ours: Training all ==[0m
+Epoch 49 
+Overall Loss: 13.753735
+Rec Loss: 11.244201
+KL Loss: 2.509534
+Y Loss: 1.033464
+T Loss: 10.727469
+Epoch 99 
+Overall Loss: 13.429101
+Rec Loss: 10.228507
+KL Loss: 3.200594
+Y Loss: 1.024887
+T Loss: 9.716063
+Epoch 149 
+Overall Loss: 13.349292
+Rec Loss: 10.078610
+KL Loss: 3.270682
+Y Loss: 1.011270
+T Loss: 9.572975
+Epoch 199 
+Overall Loss: 13.359203
+Rec Loss: 10.038723
+KL Loss: 3.320481
+Y Loss: 1.015572
+T Loss: 9.530936
+Epoch 249 
+Overall Loss: 13.295593
+Rec Loss: 9.982887
+KL Loss: 3.312705
+Y Loss: 0.989853
+T Loss: 9.487961
+Epoch 299 
+Overall Loss: 13.317685
+Rec Loss: 9.984041
+KL Loss: 3.333645
+Y Loss: 1.032445
+T Loss: 9.467818
+Epoch 349 
+Overall Loss: 13.318903
+Rec Loss: 9.956963
+KL Loss: 3.361941
+Y Loss: 0.970668
+T Loss: 9.471629
+Epoch 399 
+Overall Loss: 13.266638
+Rec Loss: 9.950491
+KL Loss: 3.316147
+Y Loss: 0.978010
+T Loss: 9.461486
+Epoch 449 
+Overall Loss: 13.264505
+Rec Loss: 9.940148
+KL Loss: 3.324357
+Y Loss: 1.026818
+T Loss: 9.426738
+Epoch 499 
+Overall Loss: 13.234721
+Rec Loss: 9.906709
+KL Loss: 3.328012
+Y Loss: 0.982173
+T Loss: 9.415623
+Epoch 549 
+Overall Loss: 13.259667
+Rec Loss: 9.956160
+KL Loss: 3.303507
+Y Loss: 1.029953
+T Loss: 9.441184
+Epoch 599 
+Overall Loss: 13.235361
+Rec Loss: 9.888670
+KL Loss: 3.346692
+Y Loss: 0.982576
+T Loss: 9.397382
+Epoch 649 
+Overall Loss: 13.256937
+Rec Loss: 9.920291
+KL Loss: 3.336646
+Y Loss: 0.984583
+T Loss: 9.427999
+Epoch 699 
+Overall Loss: 13.236394
+Rec Loss: 9.917807
+KL Loss: 3.318586
+Y Loss: 1.026252
+T Loss: 9.404681
+Epoch 749 
+Overall Loss: 13.210189
+Rec Loss: 9.901922
+KL Loss: 3.308266
+Y Loss: 1.031869
+T Loss: 9.385988
+Epoch 799 
+Overall Loss: 13.199066
+Rec Loss: 9.901956
+KL Loss: 3.297110
+Y Loss: 1.001224
+T Loss: 9.401343
+Epoch 849 
+Overall Loss: 13.209360
+Rec Loss: 9.906647
+KL Loss: 3.302712
+Y Loss: 0.988844
+T Loss: 9.412225
+Epoch 899 
+Overall Loss: 13.241403
+Rec Loss: 9.893043
+KL Loss: 3.348361
+Y Loss: 1.020148
+T Loss: 9.382969
+Epoch 949 
+Overall Loss: 13.220822
+Rec Loss: 9.881713
+KL Loss: 3.339110
+Y Loss: 1.029408
+T Loss: 9.367009
+Epoch 999 
+Overall Loss: 13.199544
+Rec Loss: 9.895350
+KL Loss: 3.304194
+Y Loss: 1.025960
+T Loss: 9.382370
+Epoch 1049 
+Overall Loss: 13.164587
+Rec Loss: 9.857320
+KL Loss: 3.307267
+Y Loss: 0.994123
+T Loss: 9.360259
+Epoch 1099 
+Overall Loss: 13.171174
+Rec Loss: 9.846089
+KL Loss: 3.325084
+Y Loss: 0.997925
+T Loss: 9.347127
+Epoch 1149 
+Overall Loss: 13.186290
+Rec Loss: 9.851254
+KL Loss: 3.335036
+Y Loss: 1.002718
+T Loss: 9.349895
+Epoch 1199 
+Overall Loss: 13.185160
+Rec Loss: 9.859907
+KL Loss: 3.325253
+Y Loss: 0.998352
+T Loss: 9.360731
+Epoch 1249 
+Overall Loss: 13.165555
+Rec Loss: 9.876545
+KL Loss: 3.289010
+Y Loss: 1.008891
+T Loss: 9.372100
+Epoch 1299 
+Overall Loss: 13.155920
+Rec Loss: 9.849931
+KL Loss: 3.305988
+Y Loss: 1.018540
+T Loss: 9.340661
+Epoch 1349 
+Overall Loss: 13.175418
+Rec Loss: 9.845242
+KL Loss: 3.330176
+Y Loss: 1.019475
+T Loss: 9.335505
+Epoch 1399 
+Overall Loss: 13.150110
+Rec Loss: 9.848386
+KL Loss: 3.301724
+Y Loss: 0.971297
+T Loss: 9.362737
+Epoch 1449 
+Overall Loss: 13.168064
+Rec Loss: 9.826128
+KL Loss: 3.341935
+Y Loss: 1.000450
+T Loss: 9.325903
+Epoch 1499 
+Overall Loss: 13.140255
+Rec Loss: 9.833119
+KL Loss: 3.307136
+Y Loss: 1.013133
+T Loss: 9.326553
+Epoch 1549 
+Overall Loss: 13.144469
+Rec Loss: 9.819485
+KL Loss: 3.324985
+Y Loss: 1.005857
+T Loss: 9.316556
+Epoch 1599 
+Overall Loss: 13.119386
+Rec Loss: 9.815793
+KL Loss: 3.303594
+Y Loss: 1.033759
+T Loss: 9.298913
+Epoch 1649 
+Overall Loss: 13.106728
+Rec Loss: 9.827592
+KL Loss: 3.279136
+Y Loss: 0.974381
+T Loss: 9.340402
+Epoch 1699 
+Overall Loss: 13.108900
+Rec Loss: 9.787730
+KL Loss: 3.321170
+Y Loss: 0.977058
+T Loss: 9.299201
+Epoch 1749 
+Overall Loss: 13.122868
+Rec Loss: 9.796810
+KL Loss: 3.326058
+Y Loss: 0.997776
+T Loss: 9.297923
+Epoch 1799 
+Overall Loss: 13.113231
+Rec Loss: 9.820693
+KL Loss: 3.292538
+Y Loss: 0.986155
+T Loss: 9.327616
+Epoch 1849 
+Overall Loss: 13.104521
+Rec Loss: 9.795392
+KL Loss: 3.309129
+Y Loss: 1.001658
+T Loss: 9.294563
+Epoch 1899 
+Overall Loss: 13.106615
+Rec Loss: 9.786794
+KL Loss: 3.319821
+Y Loss: 0.980078
+T Loss: 9.296755
+Epoch 1949 
+Overall Loss: 13.132760
+Rec Loss: 9.823440
+KL Loss: 3.309320
+Y Loss: 0.994720
+T Loss: 9.326080
+Epoch 1999 
+Overall Loss: 13.092779
+Rec Loss: 9.798134
+KL Loss: 3.294646
+Y Loss: 1.025478
+T Loss: 9.285395
+Epoch 2049 
+Overall Loss: 13.111055
+Rec Loss: 9.797657
+KL Loss: 3.313398
+Y Loss: 0.978963
+T Loss: 9.308176
+Epoch 2099 
+Overall Loss: 13.099966
+Rec Loss: 9.790463
+KL Loss: 3.309503
+Y Loss: 0.988269
+T Loss: 9.296328
+Epoch 2149 
+Overall Loss: 13.083249
+Rec Loss: 9.767232
+KL Loss: 3.316017
+Y Loss: 0.997537
+T Loss: 9.268464
+Epoch 2199 
+Overall Loss: 13.060968
+Rec Loss: 9.781583
+KL Loss: 3.279386
+Y Loss: 1.015314
+T Loss: 9.273926
+Epoch 2249 
+Overall Loss: 13.081100
+Rec Loss: 9.760584
+KL Loss: 3.320516
+Y Loss: 0.988054
+T Loss: 9.266557
+Epoch 2299 
+Overall Loss: 13.058601
+Rec Loss: 9.777335
+KL Loss: 3.281267
+Y Loss: 1.015348
+T Loss: 9.269661
+Epoch 2349 
+Overall Loss: 13.085609
+Rec Loss: 9.799569
+KL Loss: 3.286040
+Y Loss: 1.024948
+T Loss: 9.287095
+Epoch 2399 
+Overall Loss: 13.092780
+Rec Loss: 9.773607
+KL Loss: 3.319172
+Y Loss: 1.026998
+T Loss: 9.260109
+Epoch 2449 
+Overall Loss: 13.069975
+Rec Loss: 9.786295
+KL Loss: 3.283680
+Y Loss: 1.012182
+T Loss: 9.280204
+Epoch 2499 
+Overall Loss: 13.077917
+Rec Loss: 9.755077
+KL Loss: 3.322841
+Y Loss: 0.991140
+T Loss: 9.259507
+Epoch 2549 
+Overall Loss: 13.047931
+Rec Loss: 9.746149
+KL Loss: 3.301781
+Y Loss: 0.999904
+T Loss: 9.246197
+Epoch 2599 
+Overall Loss: 13.061866
+Rec Loss: 9.762922
+KL Loss: 3.298944
+Y Loss: 0.985105
+T Loss: 9.270370
+Epoch 2649 
+Overall Loss: 13.050007
+Rec Loss: 9.769481
+KL Loss: 3.280526
+Y Loss: 1.002342
+T Loss: 9.268310
+Epoch 2699 
+Overall Loss: 13.047960
+Rec Loss: 9.760636
+KL Loss: 3.287325
+Y Loss: 1.005532
+T Loss: 9.257869
+Epoch 2749 
+Overall Loss: 13.043983
+Rec Loss: 9.761993
+KL Loss: 3.281990
+Y Loss: 1.019308
+T Loss: 9.252339
+Epoch 2799 
+Overall Loss: 13.039649
+Rec Loss: 9.758171
+KL Loss: 3.281478
+Y Loss: 1.003110
+T Loss: 9.256616
+Epoch 2849 
+Overall Loss: 13.033745
+Rec Loss: 9.730914
+KL Loss: 3.302830
+Y Loss: 1.002540
+T Loss: 9.229644
+Epoch 2899 
+Overall Loss: 13.034335
+Rec Loss: 9.718922
+KL Loss: 3.315413
+Y Loss: 0.968513
+T Loss: 9.234666
+Epoch 2949 
+Overall Loss: 13.029653
+Rec Loss: 9.726599
+KL Loss: 3.303053
+Y Loss: 0.994785
+T Loss: 9.229207
+Epoch 2999 
+Overall Loss: 13.041155
+Rec Loss: 9.739771
+KL Loss: 3.301385
+Y Loss: 0.975663
+T Loss: 9.251939
+[34m== Ours: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 1.457847
+Epoch 99
+Rec Loss: 1.451696
+Epoch 149
+Rec Loss: 1.435556
+Epoch 199
+Rec Loss: 1.444156
+[34m== Ours: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 9.821896
+Epoch 99
+Rec Loss: 9.814521
+Epoch 149
+Rec Loss: 9.814575
+[34m== Ours: Testing in sample performance ==[0m
+Train Error: 0.383944
+Insample Error: 2.666387
+[34m== CEVAE: Training all ==[0m
+Epoch 49 
+Overall Loss: 25.902544
+Rec Loss: 21.289705
+KL Loss: 4.612840
+Y Loss: 15.312388
+T Loss: 13.045244
+X Loss: 0.588267
+[34m== CEVAE: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 3.514320
+Epoch 99
+Rec Loss: 3.510033
+Epoch 149
+Rec Loss: 3.505403
+Epoch 199
+Rec Loss: 3.510182
+[34m== CEVAE: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 2.805605
+Epoch 99
+Rec Loss: 2.832159
+[34m== CEVAE: Testing in sample performance ==[0m
+Train Error 3.119966
+Insample Error 4.034471
+[34m== Direct Regression: Training all ==[0m
+Epoch 49 
+Prediction Loss: 12.556080
+Epoch 99 
+Prediction Loss: 11.747165
+Epoch 149 
+Prediction Loss: 11.149173
+Epoch 199 
+Prediction Loss: 10.802311
+Epoch 249 
+Prediction Loss: 10.603645
+Epoch 299 
+Prediction Loss: 10.426061
+Epoch 349 
+Prediction Loss: 10.358868
+Epoch 399 
+Prediction Loss: 10.316467
+Epoch 449 
+Prediction Loss: 10.166210
+Epoch 499 
+Prediction Loss: 10.062537
+Epoch 549 
+Prediction Loss: 9.940217
+Epoch 599 
+Prediction Loss: 10.046528
+Epoch 649 
+Prediction Loss: 9.858471
+Epoch 699 
+Prediction Loss: 9.745827
+Epoch 749 
+Prediction Loss: 9.754693
+Epoch 799 
+Prediction Loss: 9.609994
+Epoch 849 
+Prediction Loss: 9.667247
+Epoch 899 
+Prediction Loss: 9.465193
+Epoch 949 
+Prediction Loss: 9.437484
+Epoch 999 
+Prediction Loss: 9.514193
+Epoch 1049 
+Prediction Loss: 9.455294
+Epoch 1099 
+Prediction Loss: 9.261938
+Epoch 1149 
+Prediction Loss: 9.198876
+Epoch 1199 
+Prediction Loss: 9.230889
+Epoch 1249 
+Prediction Loss: 9.064020
+Epoch 1299 
+Prediction Loss: 9.031273
+Epoch 1349 
+Prediction Loss: 8.989564
+Epoch 1399 
+Prediction Loss: 8.881312
+Epoch 1449 
+Prediction Loss: 8.843677
+Epoch 1499 
+Prediction Loss: 8.789510
+Epoch 1549 
+Prediction Loss: 8.872169
+Epoch 1599 
+Prediction Loss: 8.749407
+Epoch 1649 
+Prediction Loss: 8.617681
+Epoch 1699 
+Prediction Loss: 8.557170
+Epoch 1749 
+Prediction Loss: 8.633494
+Epoch 1799 
+Prediction Loss: 8.431836
+Epoch 1849 
+Prediction Loss: 8.459461
+Epoch 1899 
+Prediction Loss: 8.311135
+Epoch 1949 
+Prediction Loss: 8.266708
+Epoch 1999 
+Prediction Loss: 8.271341
+Epoch 2049 
+Prediction Loss: 8.252330
+Epoch 2099 
+Prediction Loss: 8.283415
+Epoch 2149 
+Prediction Loss: 8.069183
+Epoch 2199 
+Prediction Loss: 8.050120
+Epoch 2249 
+Prediction Loss: 7.992858
+Epoch 2299 
+Prediction Loss: 7.968336
+Epoch 2349 
+Prediction Loss: 7.904844
+Epoch 2399 
+Prediction Loss: 7.849980
+Epoch 2449 
+Prediction Loss: 7.790402
+Epoch 2499 
+Prediction Loss: 7.765925
+Epoch 2549 
+Prediction Loss: 7.699794
+Epoch 2599 
+Prediction Loss: 7.707974
+Epoch 2649 
+Prediction Loss: 7.626745
+Epoch 2699 
+Prediction Loss: 7.688523
+Epoch 2749 
+Prediction Loss: 7.577446
+Epoch 2799 
+Prediction Loss: 7.577812
+Epoch 2849 
+Prediction Loss: 7.465737
+Epoch 2899 
+Prediction Loss: 7.449737
+Epoch 2949 
+Prediction Loss: 7.393916
+Epoch 2999 
+Prediction Loss: 7.480971
+[34m== Direct Regression: Testing in sample performance ==[0m
+Train Error 2.766350
+Insample Error 6.330707
+[31m========== repeat time 5 ==========[0m
+[34m== Ours: Training all ==[0m
+Epoch 49 
+Overall Loss: 13.621293
+Rec Loss: 10.844380
+KL Loss: 2.776913
+Y Loss: 1.053065
+T Loss: 10.317847
+Epoch 99 
+Overall Loss: 13.423425
+Rec Loss: 10.166424
+KL Loss: 3.257002
+Y Loss: 1.013244
+T Loss: 9.659802
+Epoch 149 
+Overall Loss: 13.353591
+Rec Loss: 10.098548
+KL Loss: 3.255043
+Y Loss: 1.025536
+T Loss: 9.585780
+Epoch 199 
+Overall Loss: 13.351577
+Rec Loss: 10.057520
+KL Loss: 3.294057
+Y Loss: 1.047597
+T Loss: 9.533722
+Epoch 249 
+Overall Loss: 13.319172
+Rec Loss: 9.978990
+KL Loss: 3.340181
+Y Loss: 0.983684
+T Loss: 9.487148
+Epoch 299 
+Overall Loss: 13.287047
+Rec Loss: 9.952845
+KL Loss: 3.334202
+Y Loss: 1.002681
+T Loss: 9.451505
+Epoch 349 
+Overall Loss: 13.282527
+Rec Loss: 9.943474
+KL Loss: 3.339053
+Y Loss: 0.989815
+T Loss: 9.448567
+Epoch 399 
+Overall Loss: 13.276317
+Rec Loss: 9.966944
+KL Loss: 3.309373
+Y Loss: 1.018920
+T Loss: 9.457484
+Epoch 449 
+Overall Loss: 13.275515
+Rec Loss: 9.919238
+KL Loss: 3.356278
+Y Loss: 1.009585
+T Loss: 9.414445
+Epoch 499 
+Overall Loss: 13.286235
+Rec Loss: 9.937431
+KL Loss: 3.348804
+Y Loss: 1.041179
+T Loss: 9.416841
+Epoch 549 
+Overall Loss: 13.257976
+Rec Loss: 9.903865
+KL Loss: 3.354112
+Y Loss: 0.981440
+T Loss: 9.413145
+Epoch 599 
+Overall Loss: 13.255245
+Rec Loss: 9.920905
+KL Loss: 3.334340
+Y Loss: 1.015724
+T Loss: 9.413043
+Epoch 649 
+Overall Loss: 13.250483
+Rec Loss: 9.916046
+KL Loss: 3.334437
+Y Loss: 1.006915
+T Loss: 9.412588
+Epoch 699 
+Overall Loss: 13.232808
+Rec Loss: 9.900906
+KL Loss: 3.331901
+Y Loss: 1.030077
+T Loss: 9.385868
+Epoch 749 
+Overall Loss: 13.224729
+Rec Loss: 9.918800
+KL Loss: 3.305929
+Y Loss: 1.018617
+T Loss: 9.409492
+Epoch 799 
+Overall Loss: 13.206756
+Rec Loss: 9.876251
+KL Loss: 3.330505
+Y Loss: 0.996140
+T Loss: 9.378181
+Epoch 849 
+Overall Loss: 13.206189
+Rec Loss: 9.886701
+KL Loss: 3.319488
+Y Loss: 1.020504
+T Loss: 9.376449
+Epoch 899 
+Overall Loss: 13.186740
+Rec Loss: 9.852687
+KL Loss: 3.334053
+Y Loss: 1.031636
+T Loss: 9.336869
+Epoch 949 
+Overall Loss: 13.210940
+Rec Loss: 9.873823
+KL Loss: 3.337116
+Y Loss: 0.992472
+T Loss: 9.377587
+Epoch 999 
+Overall Loss: 13.191215
+Rec Loss: 9.858144
+KL Loss: 3.333070
+Y Loss: 0.984822
+T Loss: 9.365733
+Epoch 1049 
+Overall Loss: 13.217160
+Rec Loss: 9.922908
+KL Loss: 3.294253
+Y Loss: 1.034748
+T Loss: 9.405534
+Epoch 1099 
+Overall Loss: 13.178604
+Rec Loss: 9.849571
+KL Loss: 3.329033
+Y Loss: 1.033501
+T Loss: 9.332821
+Epoch 1149 
+Overall Loss: 13.181240
+Rec Loss: 9.866083
+KL Loss: 3.315157
+Y Loss: 1.045831
+T Loss: 9.343168
+Epoch 1199 
+Overall Loss: 13.169510
+Rec Loss: 9.838439
+KL Loss: 3.331071
+Y Loss: 0.999735
+T Loss: 9.338572
+Epoch 1249 
+Overall Loss: 13.168158
+Rec Loss: 9.853345
+KL Loss: 3.314813
+Y Loss: 1.031683
+T Loss: 9.337503
+Epoch 1299 
+Overall Loss: 13.198629
+Rec Loss: 9.860443
+KL Loss: 3.338186
+Y Loss: 1.006022
+T Loss: 9.357432
+Epoch 1349 
+Overall Loss: 13.153838
+Rec Loss: 9.831434
+KL Loss: 3.322404
+Y Loss: 0.999774
+T Loss: 9.331548
+Epoch 1399 
+Overall Loss: 13.144584
+Rec Loss: 9.845452
+KL Loss: 3.299131
+Y Loss: 0.990137
+T Loss: 9.350384
+Epoch 1449 
+Overall Loss: 13.145336
+Rec Loss: 9.836275
+KL Loss: 3.309062
+Y Loss: 1.003203
+T Loss: 9.334673
+Epoch 1499 
+Overall Loss: 13.146382
+Rec Loss: 9.817649
+KL Loss: 3.328733
+Y Loss: 0.998459
+T Loss: 9.318419
+Epoch 1549 
+Overall Loss: 13.160386
+Rec Loss: 9.833066
+KL Loss: 3.327320
+Y Loss: 1.013168
+T Loss: 9.326482
+Epoch 1599 
+Overall Loss: 13.136024
+Rec Loss: 9.806885
+KL Loss: 3.329139
+Y Loss: 0.992069
+T Loss: 9.310851
+Epoch 1649 
+Overall Loss: 13.132601
+Rec Loss: 9.837411
+KL Loss: 3.295190
+Y Loss: 1.019685
+T Loss: 9.327569
+Epoch 1699 
+Overall Loss: 13.143143
+Rec Loss: 9.786802
+KL Loss: 3.356341
+Y Loss: 1.000674
+T Loss: 9.286464
+Epoch 1749 
+Overall Loss: 13.108402
+Rec Loss: 9.802462
+KL Loss: 3.305939
+Y Loss: 1.022246
+T Loss: 9.291339
+Epoch 1799 
+Overall Loss: 13.116840
+Rec Loss: 9.799365
+KL Loss: 3.317475
+Y Loss: 1.016267
+T Loss: 9.291231
+Epoch 1849 
+Overall Loss: 13.133669
+Rec Loss: 9.847077
+KL Loss: 3.286593
+Y Loss: 1.022839
+T Loss: 9.335657
+Epoch 1899 
+Overall Loss: 13.093409
+Rec Loss: 9.819746
+KL Loss: 3.273663
+Y Loss: 1.000297
+T Loss: 9.319597
+Epoch 1949 
+Overall Loss: 13.100359
+Rec Loss: 9.778601
+KL Loss: 3.321758
+Y Loss: 0.963077
+T Loss: 9.297062
+Epoch 1999 
+Overall Loss: 13.093246
+Rec Loss: 9.768383
+KL Loss: 3.324863
+Y Loss: 0.954208
+T Loss: 9.291279
+Epoch 2049 
+Overall Loss: 13.102403
+Rec Loss: 9.786837
+KL Loss: 3.315566
+Y Loss: 0.989632
+T Loss: 9.292021
+Epoch 2099 
+Overall Loss: 13.100295
+Rec Loss: 9.753941
+KL Loss: 3.346354
+Y Loss: 0.980071
+T Loss: 9.263905
+Epoch 2149 
+Overall Loss: 13.112313
+Rec Loss: 9.773021
+KL Loss: 3.339291
+Y Loss: 0.994956
+T Loss: 9.275543
+Epoch 2199 
+Overall Loss: 13.092347
+Rec Loss: 9.778864
+KL Loss: 3.313484
+Y Loss: 0.991747
+T Loss: 9.282990
+Epoch 2249 
+Overall Loss: 13.078862
+Rec Loss: 9.762881
+KL Loss: 3.315981
+Y Loss: 1.001851
+T Loss: 9.261956
+Epoch 2299 
+Overall Loss: 13.079747
+Rec Loss: 9.770701
+KL Loss: 3.309046
+Y Loss: 0.984230
+T Loss: 9.278586
+Epoch 2349 
+Overall Loss: 13.083300
+Rec Loss: 9.768776
+KL Loss: 3.314525
+Y Loss: 0.982999
+T Loss: 9.277277
+Epoch 2399 
+Overall Loss: 13.072078
+Rec Loss: 9.760895
+KL Loss: 3.311183
+Y Loss: 0.994388
+T Loss: 9.263701
+Epoch 2449 
+Overall Loss: 13.076285
+Rec Loss: 9.748624
+KL Loss: 3.327661
+Y Loss: 1.005617
+T Loss: 9.245816
+Epoch 2499 
+Overall Loss: 13.082117
+Rec Loss: 9.765261
+KL Loss: 3.316857
+Y Loss: 0.998372
+T Loss: 9.266075
+Epoch 2549 
+Overall Loss: 13.072799
+Rec Loss: 9.743056
+KL Loss: 3.329742
+Y Loss: 0.968540
+T Loss: 9.258786
+Epoch 2599 
+Overall Loss: 13.092473
+Rec Loss: 9.760719
+KL Loss: 3.331754
+Y Loss: 1.000158
+T Loss: 9.260640
+Epoch 2649 
+Overall Loss: 13.046971
+Rec Loss: 9.745136
+KL Loss: 3.301835
+Y Loss: 0.988281
+T Loss: 9.250996
+Epoch 2699 
+Overall Loss: 13.054859
+Rec Loss: 9.720762
+KL Loss: 3.334098
+Y Loss: 0.964949
+T Loss: 9.238287
+Epoch 2749 
+Overall Loss: 13.033773
+Rec Loss: 9.763825
+KL Loss: 3.269947
+Y Loss: 1.014531
+T Loss: 9.256560
+Epoch 2799 
+Overall Loss: 13.056206
+Rec Loss: 9.775215
+KL Loss: 3.280991
+Y Loss: 1.013532
+T Loss: 9.268449
+Epoch 2849 
+Overall Loss: 13.070192
+Rec Loss: 9.744771
+KL Loss: 3.325420
+Y Loss: 1.012379
+T Loss: 9.238582
+Epoch 2899 
+Overall Loss: 13.048510
+Rec Loss: 9.741448
+KL Loss: 3.307062
+Y Loss: 0.998053
+T Loss: 9.242421
+Epoch 2949 
+Overall Loss: 13.043620
+Rec Loss: 9.715239
+KL Loss: 3.328381
+Y Loss: 1.001753
+T Loss: 9.214362
+Epoch 2999 
+Overall Loss: 13.026699
+Rec Loss: 9.710422
+KL Loss: 3.316277
+Y Loss: 1.000436
+T Loss: 9.210204
+[34m== Ours: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 1.438735
+Epoch 99
+Rec Loss: 1.451977
+[34m== Ours: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 9.833284
+Epoch 99
+Rec Loss: 9.814255
+Epoch 149
+Rec Loss: 9.789803
+Epoch 199
+Rec Loss: 9.808158
+[34m== Ours: Testing in sample performance ==[0m
+Train Error: 0.347316
+Insample Error: 2.731992
+[34m== CEVAE: Training all ==[0m
+Epoch 49 
+Overall Loss: 25.425090
+Rec Loss: 21.052583
+KL Loss: 4.372506
+Y Loss: 13.556195
+T Loss: 13.124205
+X Loss: 1.150281
+[34m== CEVAE: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 3.523930
+Epoch 99
+Rec Loss: 3.524385
+[34m== CEVAE: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 3.134642
+Epoch 99
+Rec Loss: 3.120319
+Epoch 149
+Rec Loss: 3.131972
+[34m== CEVAE: Testing in sample performance ==[0m
+Train Error 2.858325
+Insample Error 3.988712
+[34m== Direct Regression: Training all ==[0m
+Epoch 49 
+Prediction Loss: 12.659619
+Epoch 99 
+Prediction Loss: 11.737580
+Epoch 149 
+Prediction Loss: 11.224404
+Epoch 199 
+Prediction Loss: 10.830442
+Epoch 249 
+Prediction Loss: 10.642372
+Epoch 299 
+Prediction Loss: 10.520643
+Epoch 349 
+Prediction Loss: 10.379036
+Epoch 399 
+Prediction Loss: 10.219341
+Epoch 449 
+Prediction Loss: 10.135884
+Epoch 499 
+Prediction Loss: 9.999853
+Epoch 549 
+Prediction Loss: 9.926880
+Epoch 599 
+Prediction Loss: 9.782878
+Epoch 649 
+Prediction Loss: 9.770540
+Epoch 699 
+Prediction Loss: 9.593422
+Epoch 749 
+Prediction Loss: 9.517259
+Epoch 799 
+Prediction Loss: 9.572409
+Epoch 849 
+Prediction Loss: 9.387252
+Epoch 899 
+Prediction Loss: 9.324968
+Epoch 949 
+Prediction Loss: 9.207636
+Epoch 999 
+Prediction Loss: 9.197593
+Epoch 1049 
+Prediction Loss: 9.086382
+Epoch 1099 
+Prediction Loss: 8.965571
+Epoch 1149 
+Prediction Loss: 8.990200
+Epoch 1199 
+Prediction Loss: 8.802996
+Epoch 1249 
+Prediction Loss: 8.760430
+Epoch 1299 
+Prediction Loss: 8.683509
+Epoch 1349 
+Prediction Loss: 8.554222
+Epoch 1399 
+Prediction Loss: 8.534477
+Epoch 1449 
+Prediction Loss: 8.472037
+Epoch 1499 
+Prediction Loss: 8.376838
+Epoch 1549 
+Prediction Loss: 8.273917
+Epoch 1599 
+Prediction Loss: 8.314403
+Epoch 1649 
+Prediction Loss: 8.242929
+Epoch 1699 
+Prediction Loss: 8.172018
+Epoch 1749 
+Prediction Loss: 8.073665
+Epoch 1799 
+Prediction Loss: 8.126920
+Epoch 1849 
+Prediction Loss: 7.951796
+Epoch 1899 
+Prediction Loss: 7.908404
+Epoch 1949 
+Prediction Loss: 7.839265
+Epoch 1999 
+Prediction Loss: 7.811395
+Epoch 2049 
+Prediction Loss: 7.774024
+Epoch 2099 
+Prediction Loss: 7.717466
+Epoch 2149 
+Prediction Loss: 7.677790
+Epoch 2199 
+Prediction Loss: 7.683826
+Epoch 2249 
+Prediction Loss: 7.528949
+Epoch 2299 
+Prediction Loss: 7.526356
+Epoch 2349 
+Prediction Loss: 7.476499
+Epoch 2399 
+Prediction Loss: 7.478552
+Epoch 2449 
+Prediction Loss: 7.334991
+Epoch 2499 
+Prediction Loss: 7.375667
+Epoch 2549 
+Prediction Loss: 7.235570
+Epoch 2599 
+Prediction Loss: 7.178817
+Epoch 2649 
+Prediction Loss: 7.188314
+Epoch 2699 
+Prediction Loss: 7.113664
+Epoch 2749 
+Prediction Loss: 7.030933
+Epoch 2799 
+Prediction Loss: 7.000375
+Epoch 2849 
+Prediction Loss: 7.019988
+Epoch 2899 
+Prediction Loss: 7.019531
+Epoch 2949 
+Prediction Loss: 6.915508
+Epoch 2999 
+Prediction Loss: 7.114110
+[34m== Direct Regression: Testing in sample performance ==[0m
+Train Error 2.644167
+Insample Error 6.276870
+[31m========== repeat time 6 ==========[0m
+[34m== Ours: Training all ==[0m
+Epoch 49 
+Overall Loss: 13.627171
+Rec Loss: 10.783270
+KL Loss: 2.843901
+Y Loss: 1.081989
+T Loss: 10.242275
+Epoch 99 
+Overall Loss: 13.388956
+Rec Loss: 10.119046
+KL Loss: 3.269911
+Y Loss: 1.002542
+T Loss: 9.617774
+Epoch 149 
+Overall Loss: 13.336583
+Rec Loss: 10.046368
+KL Loss: 3.290215
+Y Loss: 1.006208
+T Loss: 9.543264
+Epoch 199 
+Overall Loss: 13.323960
+Rec Loss: 10.008536
+KL Loss: 3.315424
+Y Loss: 1.008953
+T Loss: 9.504060
+Epoch 249 
+Overall Loss: 13.323916
+Rec Loss: 9.976440
+KL Loss: 3.347476
+Y Loss: 0.980972
+T Loss: 9.485954
+Epoch 299 
+Overall Loss: 13.271849
+Rec Loss: 9.965453
+KL Loss: 3.306396
+Y Loss: 1.014129
+T Loss: 9.458388
+Epoch 349 
+Overall Loss: 13.307686
+Rec Loss: 9.972665
+KL Loss: 3.335022
+Y Loss: 1.021337
+T Loss: 9.461996
+Epoch 399 
+Overall Loss: 13.296419
+Rec Loss: 9.937388
+KL Loss: 3.359031
+Y Loss: 1.003271
+T Loss: 9.435752
+Epoch 449 
+Overall Loss: 13.270538
+Rec Loss: 9.927985
+KL Loss: 3.342553
+Y Loss: 0.998623
+T Loss: 9.428674
+Epoch 499 
+Overall Loss: 13.261162
+Rec Loss: 9.910720
+KL Loss: 3.350442
+Y Loss: 1.007991
+T Loss: 9.406725
+Epoch 549 
+Overall Loss: 13.245481
+Rec Loss: 9.911396
+KL Loss: 3.334085
+Y Loss: 1.007547
+T Loss: 9.407623
+Epoch 599 
+Overall Loss: 13.267482
+Rec Loss: 9.900590
+KL Loss: 3.366892
+Y Loss: 1.026864
+T Loss: 9.387158
+Epoch 649 
+Overall Loss: 13.221825
+Rec Loss: 9.893251
+KL Loss: 3.328574
+Y Loss: 1.002431
+T Loss: 9.392036
+Epoch 699 
+Overall Loss: 13.207615
+Rec Loss: 9.885681
+KL Loss: 3.321934
+Y Loss: 1.010299
+T Loss: 9.380532
+Epoch 749 
+Overall Loss: 13.225516
+Rec Loss: 9.892032
+KL Loss: 3.333485
+Y Loss: 0.992956
+T Loss: 9.395553
+Epoch 799 
+Overall Loss: 13.215348
+Rec Loss: 9.862978
+KL Loss: 3.352370
+Y Loss: 0.984499
+T Loss: 9.370728
+Epoch 849 
+Overall Loss: 13.213870
+Rec Loss: 9.876298
+KL Loss: 3.337571
+Y Loss: 1.026465
+T Loss: 9.363066
+Epoch 899 
+Overall Loss: 13.227527
+Rec Loss: 9.878247
+KL Loss: 3.349279
+Y Loss: 1.006230
+T Loss: 9.375132
+Epoch 949 
+Overall Loss: 13.225630
+Rec Loss: 9.859770
+KL Loss: 3.365861
+Y Loss: 0.983388
+T Loss: 9.368076
+Epoch 999 
+Overall Loss: 13.211117
+Rec Loss: 9.835456
+KL Loss: 3.375661
+Y Loss: 0.992315
+T Loss: 9.339298
+Epoch 1049 
+Overall Loss: 13.194244
+Rec Loss: 9.844744
+KL Loss: 3.349500
+Y Loss: 1.013140
+T Loss: 9.338174
+Epoch 1099 
+Overall Loss: 13.198012
+Rec Loss: 9.856446
+KL Loss: 3.341566
+Y Loss: 0.986022
+T Loss: 9.363435
+Epoch 1149 
+Overall Loss: 13.175003
+Rec Loss: 9.865653
+KL Loss: 3.309350
+Y Loss: 1.044237
+T Loss: 9.343535
+Epoch 1199 
+Overall Loss: 13.156725
+Rec Loss: 9.844369
+KL Loss: 3.312356
+Y Loss: 1.001338
+T Loss: 9.343700
+Epoch 1249 
+Overall Loss: 13.164825
+Rec Loss: 9.838944
+KL Loss: 3.325881
+Y Loss: 0.990988
+T Loss: 9.343450
+Epoch 1299 
+Overall Loss: 13.151830
+Rec Loss: 9.840610
+KL Loss: 3.311220
+Y Loss: 0.990539
+T Loss: 9.345341
+Epoch 1349 
+Overall Loss: 13.145829
+Rec Loss: 9.815491
+KL Loss: 3.330339
+Y Loss: 1.024539
+T Loss: 9.303221
+Epoch 1399 
+Overall Loss: 13.149984
+Rec Loss: 9.822034
+KL Loss: 3.327950
+Y Loss: 1.010584
+T Loss: 9.316742
+Epoch 1449 
+Overall Loss: 13.149574
+Rec Loss: 9.824007
+KL Loss: 3.325567
+Y Loss: 1.004705
+T Loss: 9.321654
+Epoch 1499 
+Overall Loss: 13.170512
+Rec Loss: 9.813899
+KL Loss: 3.356613
+Y Loss: 1.008663
+T Loss: 9.309567
+Epoch 1549 
+Overall Loss: 13.138610
+Rec Loss: 9.789596
+KL Loss: 3.349015
+Y Loss: 0.986348
+T Loss: 9.296422
+Epoch 1599 
+Overall Loss: 13.156119
+Rec Loss: 9.809276
+KL Loss: 3.346843
+Y Loss: 0.988386
+T Loss: 9.315083
+Epoch 1649 
+Overall Loss: 13.137382
+Rec Loss: 9.821900
+KL Loss: 3.315482
+Y Loss: 1.016575
+T Loss: 9.313613
+Epoch 1699 
+Overall Loss: 13.120296
+Rec Loss: 9.803457
+KL Loss: 3.316839
+Y Loss: 1.001131
+T Loss: 9.302891
+Epoch 1749 
+Overall Loss: 13.105085
+Rec Loss: 9.793208
+KL Loss: 3.311877
+Y Loss: 1.024244
+T Loss: 9.281086
+Epoch 1799 
+Overall Loss: 13.130587
+Rec Loss: 9.811593
+KL Loss: 3.318994
+Y Loss: 1.026387
+T Loss: 9.298399
+Epoch 1849 
+Overall Loss: 13.127134
+Rec Loss: 9.774673
+KL Loss: 3.352461
+Y Loss: 0.983224
+T Loss: 9.283060
+Epoch 1899 
+Overall Loss: 13.091652
+Rec Loss: 9.737148
+KL Loss: 3.354504
+Y Loss: 0.989291
+T Loss: 9.242503
+Epoch 1949 
+Overall Loss: 13.102387
+Rec Loss: 9.782406
+KL Loss: 3.319981
+Y Loss: 1.018640
+T Loss: 9.273086
+Epoch 1999 
+Overall Loss: 13.117335
+Rec Loss: 9.787558
+KL Loss: 3.329778
+Y Loss: 0.999617
+T Loss: 9.287749
+Epoch 2049 
+Overall Loss: 13.107872
+Rec Loss: 9.782905
+KL Loss: 3.324967
+Y Loss: 0.987318
+T Loss: 9.289246
+Epoch 2099 
+Overall Loss: 13.097897
+Rec Loss: 9.802910
+KL Loss: 3.294987
+Y Loss: 1.031862
+T Loss: 9.286979
+Epoch 2149 
+Overall Loss: 13.093344
+Rec Loss: 9.781248
+KL Loss: 3.312096
+Y Loss: 0.999775
+T Loss: 9.281361
+Epoch 2199 
+Overall Loss: 13.088937
+Rec Loss: 9.754606
+KL Loss: 3.334331
+Y Loss: 0.962506
+T Loss: 9.273353
+Epoch 2249 
+Overall Loss: 13.089275
+Rec Loss: 9.779200
+KL Loss: 3.310075
+Y Loss: 1.004422
+T Loss: 9.276989
+Epoch 2299 
+Overall Loss: 13.077510
+Rec Loss: 9.759784
+KL Loss: 3.317726
+Y Loss: 1.000420
+T Loss: 9.259574
+Epoch 2349 
+Overall Loss: 13.083817
+Rec Loss: 9.743113
+KL Loss: 3.340705
+Y Loss: 0.997888
+T Loss: 9.244169
+Epoch 2399 
+Overall Loss: 13.093443
+Rec Loss: 9.772975
+KL Loss: 3.320467
+Y Loss: 0.996932
+T Loss: 9.274509
+Epoch 2449 
+Overall Loss: 13.092803
+Rec Loss: 9.794978
+KL Loss: 3.297825
+Y Loss: 1.045044
+T Loss: 9.272456
+Epoch 2499 
+Overall Loss: 13.054462
+Rec Loss: 9.731948
+KL Loss: 3.322515
+Y Loss: 1.006374
+T Loss: 9.228761
+Epoch 2549 
+Overall Loss: 13.057588
+Rec Loss: 9.745643
+KL Loss: 3.311945
+Y Loss: 0.988490
+T Loss: 9.251398
+Epoch 2599 
+Overall Loss: 13.067659
+Rec Loss: 9.766718
+KL Loss: 3.300941
+Y Loss: 1.016605
+T Loss: 9.258415
+Epoch 2649 
+Overall Loss: 13.082100
+Rec Loss: 9.771230
+KL Loss: 3.310870
+Y Loss: 1.050037
+T Loss: 9.246211
+Epoch 2699 
+Overall Loss: 13.051950
+Rec Loss: 9.730366
+KL Loss: 3.321584
+Y Loss: 1.009023
+T Loss: 9.225854
+Epoch 2749 
+Overall Loss: 13.030515
+Rec Loss: 9.743921
+KL Loss: 3.286594
+Y Loss: 1.011505
+T Loss: 9.238168
+Epoch 2799 
+Overall Loss: 13.055326
+Rec Loss: 9.738302
+KL Loss: 3.317024
+Y Loss: 1.011926
+T Loss: 9.232339
+Epoch 2849 
+Overall Loss: 13.062068
+Rec Loss: 9.717584
+KL Loss: 3.344483
+Y Loss: 0.975899
+T Loss: 9.229635
+Epoch 2899 
+Overall Loss: 13.030471
+Rec Loss: 9.759198
+KL Loss: 3.271274
+Y Loss: 0.995283
+T Loss: 9.261556
+Epoch 2949 
+Overall Loss: 13.054355
+Rec Loss: 9.730372
+KL Loss: 3.323983
+Y Loss: 0.983336
+T Loss: 9.238704
+Epoch 2999 
+Overall Loss: 13.038004
+Rec Loss: 9.707302
+KL Loss: 3.330701
+Y Loss: 0.958098
+T Loss: 9.228253
+[34m== Ours: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 1.442194
+Epoch 99
+Rec Loss: 1.417861
+Epoch 149
+Rec Loss: 1.422377
+[34m== Ours: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 9.823466
+Epoch 99
+Rec Loss: 9.808926
+Epoch 149
+Rec Loss: 9.802284
+Epoch 199
+Rec Loss: 9.798311
+Epoch 249
+Rec Loss: 9.800126
+[34m== Ours: Testing in sample performance ==[0m
+Train Error: 0.376670
+Insample Error: 2.546635
+[34m== CEVAE: Training all ==[0m
+Epoch 49 
+Overall Loss: 24.792293
+Rec Loss: 20.100360
+KL Loss: 4.691933
+Y Loss: 12.955464
+T Loss: 13.098531
+X Loss: 0.524097
+[34m== CEVAE: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 3.481447
+Epoch 99
+Rec Loss: 3.485192
+[34m== CEVAE: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 2.720939
+Epoch 99
+Rec Loss: 2.694036
+Epoch 149
+Rec Loss: 2.700742
+[34m== CEVAE: Testing in sample performance ==[0m
+Train Error 2.764278
+Insample Error 3.972091
+[34m== Direct Regression: Training all ==[0m
+Epoch 49 
+Prediction Loss: 12.457919
+Epoch 99 
+Prediction Loss: 11.452852
+Epoch 149 
+Prediction Loss: 10.918676
+Epoch 199 
+Prediction Loss: 10.708110
+Epoch 249 
+Prediction Loss: 10.569682
+Epoch 299 
+Prediction Loss: 10.447135
+Epoch 349 
+Prediction Loss: 10.399643
+Epoch 399 
+Prediction Loss: 10.350832
+Epoch 449 
+Prediction Loss: 10.199054
+Epoch 499 
+Prediction Loss: 10.156541
+Epoch 549 
+Prediction Loss: 10.080418
+Epoch 599 
+Prediction Loss: 9.996824
+Epoch 649 
+Prediction Loss: 9.953010
+Epoch 699 
+Prediction Loss: 9.881614
+Epoch 749 
+Prediction Loss: 9.901482
+Epoch 799 
+Prediction Loss: 9.812841
+Epoch 849 
+Prediction Loss: 9.761311
+Epoch 899 
+Prediction Loss: 9.727329
+Epoch 949 
+Prediction Loss: 9.668059
+Epoch 999 
+Prediction Loss: 9.648209
+Epoch 1049 
+Prediction Loss: 9.559159
+Epoch 1099 
+Prediction Loss: 9.557696
+Epoch 1149 
+Prediction Loss: 9.499859
+Epoch 1199 
+Prediction Loss: 9.509858
+Epoch 1249 
+Prediction Loss: 9.514775
+Epoch 1299 
+Prediction Loss: 9.423691
+Epoch 1349 
+Prediction Loss: 9.324564
+Epoch 1399 
+Prediction Loss: 9.334071
+Epoch 1449 
+Prediction Loss: 9.252610
+Epoch 1499 
+Prediction Loss: 9.215097
+Epoch 1549 
+Prediction Loss: 9.307180
+Epoch 1599 
+Prediction Loss: 9.166208
+Epoch 1649 
+Prediction Loss: 9.132133
+Epoch 1699 
+Prediction Loss: 9.115258
+Epoch 1749 
+Prediction Loss: 9.076652
+Epoch 1799 
+Prediction Loss: 8.998832
+Epoch 1849 
+Prediction Loss: 9.048680
+Epoch 1899 
+Prediction Loss: 8.936103
+Epoch 1949 
+Prediction Loss: 8.996019
+Epoch 1999 
+Prediction Loss: 8.877506
+Epoch 2049 
+Prediction Loss: 8.850889
+Epoch 2099 
+Prediction Loss: 8.861476
+Epoch 2149 
+Prediction Loss: 8.757788
+Epoch 2199 
+Prediction Loss: 8.817839
+Epoch 2249 
+Prediction Loss: 8.850151
+Epoch 2299 
+Prediction Loss: 8.629587
+Epoch 2349 
+Prediction Loss: 8.636786
+Epoch 2399 
+Prediction Loss: 8.599902
+Epoch 2449 
+Prediction Loss: 8.591586
+Epoch 2499 
+Prediction Loss: 8.509573
+Epoch 2549 
+Prediction Loss: 8.514694
+Epoch 2599 
+Prediction Loss: 8.507587
+Epoch 2649 
+Prediction Loss: 8.462904
+Epoch 2699 
+Prediction Loss: 8.378212
+Epoch 2749 
+Prediction Loss: 8.359909
+Epoch 2799 
+Prediction Loss: 8.431077
+Epoch 2849 
+Prediction Loss: 8.302997
+Epoch 2899 
+Prediction Loss: 8.487947
+Epoch 2949 
+Prediction Loss: 8.280431
+Epoch 2999 
+Prediction Loss: 8.215875
+[34m== Direct Regression: Testing in sample performance ==[0m
+Train Error 2.850070
+Insample Error 6.156484
+[31m========== repeat time 7 ==========[0m
+[34m== Ours: Training all ==[0m
+Epoch 49 
+Overall Loss: 13.618049
+Rec Loss: 10.853563
+KL Loss: 2.764487
+Y Loss: 1.036858
+T Loss: 10.335133
+Epoch 99 
+Overall Loss: 13.506762
+Rec Loss: 10.647576
+KL Loss: 2.859186
+Y Loss: 0.982238
+T Loss: 10.156457
+Epoch 149 
+Overall Loss: 13.450603
+Rec Loss: 10.402572
+KL Loss: 3.048031
+Y Loss: 1.012698
+T Loss: 9.896223
+Epoch 199 
+Overall Loss: 13.339685
+Rec Loss: 10.030255
+KL Loss: 3.309430
+Y Loss: 0.971987
+T Loss: 9.544262
+Epoch 249 
+Overall Loss: 13.345078
+Rec Loss: 10.015896
+KL Loss: 3.329182
+Y Loss: 0.990912
+T Loss: 9.520440
+Epoch 299 
+Overall Loss: 13.287876
+Rec Loss: 9.995855
+KL Loss: 3.292021
+Y Loss: 1.000469
+T Loss: 9.495620
+Epoch 349 
+Overall Loss: 13.295077
+Rec Loss: 9.944000
+KL Loss: 3.351077
+Y Loss: 0.987874
+T Loss: 9.450063
+Epoch 399 
+Overall Loss: 13.267702
+Rec Loss: 9.936086
+KL Loss: 3.331616
+Y Loss: 1.000405
+T Loss: 9.435883
+Epoch 449 
+Overall Loss: 13.260980
+Rec Loss: 9.929209
+KL Loss: 3.331771
+Y Loss: 0.992229
+T Loss: 9.433095
+Epoch 499 
+Overall Loss: 13.255262
+Rec Loss: 9.939793
+KL Loss: 3.315469
+Y Loss: 1.012128
+T Loss: 9.433729
+Epoch 549 
+Overall Loss: 13.250449
+Rec Loss: 9.909870
+KL Loss: 3.340578
+Y Loss: 0.995523
+T Loss: 9.412109
+Epoch 599 
+Overall Loss: 13.243649
+Rec Loss: 9.914431
+KL Loss: 3.329219
+Y Loss: 0.998395
+T Loss: 9.415233
+Epoch 649 
+Overall Loss: 13.252041
+Rec Loss: 9.909715
+KL Loss: 3.342326
+Y Loss: 1.000861
+T Loss: 9.409285
+Epoch 699 
+Overall Loss: 13.219069
+Rec Loss: 9.884911
+KL Loss: 3.334158
+Y Loss: 0.987523
+T Loss: 9.391150
+Epoch 749 
+Overall Loss: 13.217448
+Rec Loss: 9.887402
+KL Loss: 3.330046
+Y Loss: 1.039329
+T Loss: 9.367738
+Epoch 799 
+Overall Loss: 13.219248
+Rec Loss: 9.908665
+KL Loss: 3.310583
+Y Loss: 1.030742
+T Loss: 9.393294
+Epoch 849 
+Overall Loss: 13.218064
+Rec Loss: 9.873985
+KL Loss: 3.344079
+Y Loss: 1.007146
+T Loss: 9.370413
+Epoch 899 
+Overall Loss: 13.220697
+Rec Loss: 9.893048
+KL Loss: 3.327649
+Y Loss: 0.992704
+T Loss: 9.396696
+Epoch 949 
+Overall Loss: 13.201318
+Rec Loss: 9.845486
+KL Loss: 3.355832
+Y Loss: 1.006989
+T Loss: 9.341991
+Epoch 999 
+Overall Loss: 13.229870
+Rec Loss: 9.852208
+KL Loss: 3.377662
+Y Loss: 0.984126
+T Loss: 9.360145
+Epoch 1049 
+Overall Loss: 13.197448
+Rec Loss: 9.866849
+KL Loss: 3.330599
+Y Loss: 0.989564
+T Loss: 9.372067
+Epoch 1099 
+Overall Loss: 13.176775
+Rec Loss: 9.843350
+KL Loss: 3.333425
+Y Loss: 0.996365
+T Loss: 9.345168
+Epoch 1149 
+Overall Loss: 13.173770
+Rec Loss: 9.835325
+KL Loss: 3.338445
+Y Loss: 1.005360
+T Loss: 9.332645
+Epoch 1199 
+Overall Loss: 13.185513
+Rec Loss: 9.846950
+KL Loss: 3.338563
+Y Loss: 0.999721
+T Loss: 9.347089
+Epoch 1249 
+Overall Loss: 13.183238
+Rec Loss: 9.869897
+KL Loss: 3.313342
+Y Loss: 1.029138
+T Loss: 9.355328
+Epoch 1299 
+Overall Loss: 13.158756
+Rec Loss: 9.842456
+KL Loss: 3.316300
+Y Loss: 1.003113
+T Loss: 9.340900
+Epoch 1349 
+Overall Loss: 13.158092
+Rec Loss: 9.840817
+KL Loss: 3.317276
+Y Loss: 0.994708
+T Loss: 9.343462
+Epoch 1399 
+Overall Loss: 13.175456
+Rec Loss: 9.839181
+KL Loss: 3.336275
+Y Loss: 0.999008
+T Loss: 9.339677
+Epoch 1449 
+Overall Loss: 13.146958
+Rec Loss: 9.817263
+KL Loss: 3.329695
+Y Loss: 1.007322
+T Loss: 9.313602
+Epoch 1499 
+Overall Loss: 13.116583
+Rec Loss: 9.805499
+KL Loss: 3.311084
+Y Loss: 0.980512
+T Loss: 9.315243
+Epoch 1549 
+Overall Loss: 13.153447
+Rec Loss: 9.843512
+KL Loss: 3.309934
+Y Loss: 1.028837
+T Loss: 9.329094
+Epoch 1599 
+Overall Loss: 13.152778
+Rec Loss: 9.829211
+KL Loss: 3.323567
+Y Loss: 1.008522
+T Loss: 9.324950
+Epoch 1649 
+Overall Loss: 13.144329
+Rec Loss: 9.837096
+KL Loss: 3.307233
+Y Loss: 0.997880
+T Loss: 9.338156
+Epoch 1699 
+Overall Loss: 13.142693
+Rec Loss: 9.830685
+KL Loss: 3.312009
+Y Loss: 1.019831
+T Loss: 9.320769
+Epoch 1749 
+Overall Loss: 13.160003
+Rec Loss: 9.824685
+KL Loss: 3.335318
+Y Loss: 0.988472
+T Loss: 9.330449
+Epoch 1799 
+Overall Loss: 13.092726
+Rec Loss: 9.780626
+KL Loss: 3.312100
+Y Loss: 0.984811
+T Loss: 9.288221
+Epoch 1849 
+Overall Loss: 13.091027
+Rec Loss: 9.804229
+KL Loss: 3.286799
+Y Loss: 1.020974
+T Loss: 9.293742
+Epoch 1899 
+Overall Loss: 13.136140
+Rec Loss: 9.810794
+KL Loss: 3.325346
+Y Loss: 1.007038
+T Loss: 9.307275
+Epoch 1949 
+Overall Loss: 13.114956
+Rec Loss: 9.792727
+KL Loss: 3.322229
+Y Loss: 0.999598
+T Loss: 9.292928
+Epoch 1999 
+Overall Loss: 13.114927
+Rec Loss: 9.793514
+KL Loss: 3.321412
+Y Loss: 0.973245
+T Loss: 9.306892
+Epoch 2049 
+Overall Loss: 13.112935
+Rec Loss: 9.792693
+KL Loss: 3.320242
+Y Loss: 1.013201
+T Loss: 9.286093
+Epoch 2099 
+Overall Loss: 13.100452
+Rec Loss: 9.794353
+KL Loss: 3.306099
+Y Loss: 0.988265
+T Loss: 9.300221
+Epoch 2149 
+Overall Loss: 13.113711
+Rec Loss: 9.798442
+KL Loss: 3.315268
+Y Loss: 1.008619
+T Loss: 9.294133
+Epoch 2199 
+Overall Loss: 13.102992
+Rec Loss: 9.769195
+KL Loss: 3.333797
+Y Loss: 0.984050
+T Loss: 9.277170
+Epoch 2249 
+Overall Loss: 13.067864
+Rec Loss: 9.770015
+KL Loss: 3.297849
+Y Loss: 1.007406
+T Loss: 9.266312
+Epoch 2299 
+Overall Loss: 13.086459
+Rec Loss: 9.765819
+KL Loss: 3.320640
+Y Loss: 0.988990
+T Loss: 9.271323
+Epoch 2349 
+Overall Loss: 13.062554
+Rec Loss: 9.765521
+KL Loss: 3.297033
+Y Loss: 0.992137
+T Loss: 9.269452
+Epoch 2399 
+Overall Loss: 13.076834
+Rec Loss: 9.798907
+KL Loss: 3.277927
+Y Loss: 1.009143
+T Loss: 9.294335
+Epoch 2449 
+Overall Loss: 13.072355
+Rec Loss: 9.783210
+KL Loss: 3.289145
+Y Loss: 1.016353
+T Loss: 9.275033
+Epoch 2499 
+Overall Loss: 13.092008
+Rec Loss: 9.782289
+KL Loss: 3.309718
+Y Loss: 0.992395
+T Loss: 9.286092
+Epoch 2549 
+Overall Loss: 13.082651
+Rec Loss: 9.801819
+KL Loss: 3.280831
+Y Loss: 1.014156
+T Loss: 9.294741
+Epoch 2599 
+Overall Loss: 13.076437
+Rec Loss: 9.769419
+KL Loss: 3.307018
+Y Loss: 0.990272
+T Loss: 9.274283
+Epoch 2649 
+Overall Loss: 13.067060
+Rec Loss: 9.743287
+KL Loss: 3.323774
+Y Loss: 0.985282
+T Loss: 9.250646
+Epoch 2699 
+Overall Loss: 13.060236
+Rec Loss: 9.775132
+KL Loss: 3.285104
+Y Loss: 1.002883
+T Loss: 9.273690
+Epoch 2749 
+Overall Loss: 13.038682
+Rec Loss: 9.754190
+KL Loss: 3.284492
+Y Loss: 0.997597
+T Loss: 9.255392
+Epoch 2799 
+Overall Loss: 13.052245
+Rec Loss: 9.759836
+KL Loss: 3.292409
+Y Loss: 1.007495
+T Loss: 9.256089
+Epoch 2849 
+Overall Loss: 13.028933
+Rec Loss: 9.761366
+KL Loss: 3.267566
+Y Loss: 1.004845
+T Loss: 9.258944
+Epoch 2899 
+Overall Loss: 13.040143
+Rec Loss: 9.754200
+KL Loss: 3.285943
+Y Loss: 0.981332
+T Loss: 9.263534
+Epoch 2949 
+Overall Loss: 13.045283
+Rec Loss: 9.735903
+KL Loss: 3.309381
+Y Loss: 0.992360
+T Loss: 9.239723
+Epoch 2999 
+Overall Loss: 13.043263
+Rec Loss: 9.710633
+KL Loss: 3.332631
+Y Loss: 0.963846
+T Loss: 9.228710
+[34m== Ours: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 1.442737
+Epoch 99
+Rec Loss: 1.433124
+Epoch 149
+Rec Loss: 1.429849
+Epoch 199
+Rec Loss: 1.429643
+Epoch 249
+Rec Loss: 1.416406
+Epoch 299
+Rec Loss: 1.431015
+[34m== Ours: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 9.833350
+Epoch 99
+Rec Loss: 9.807505
+Epoch 149
+Rec Loss: 9.798431
+Epoch 199
+Rec Loss: 9.815724
+[34m== Ours: Testing in sample performance ==[0m
+Train Error: 0.402971
+Insample Error: 2.428090
+[34m== CEVAE: Training all ==[0m
+Epoch 49 
+Overall Loss: 25.965634
+Rec Loss: 21.459742
+KL Loss: 4.505893
+Y Loss: 14.294339
+T Loss: 13.084264
+X Loss: 1.228309
+[34m== CEVAE: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 3.502104
+Epoch 99
+Rec Loss: 3.492616
+Epoch 149
+Rec Loss: 3.495783
+[34m== CEVAE: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 2.948306
+Epoch 99
+Rec Loss: 2.946638
+Epoch 149
+Rec Loss: 2.952741
+[34m== CEVAE: Testing in sample performance ==[0m
+Train Error 2.917961
+Insample Error 3.991443
+[34m== Direct Regression: Training all ==[0m
+Epoch 49 
+Prediction Loss: 12.510944
+Epoch 99 
+Prediction Loss: 11.522821
+Epoch 149 
+Prediction Loss: 11.028849
+Epoch 199 
+Prediction Loss: 10.812106
+Epoch 249 
+Prediction Loss: 10.739636
+Epoch 299 
+Prediction Loss: 10.498529
+Epoch 349 
+Prediction Loss: 10.420005
+Epoch 399 
+Prediction Loss: 10.340234
+Epoch 449 
+Prediction Loss: 10.286519
+Epoch 499 
+Prediction Loss: 10.182985
+Epoch 549 
+Prediction Loss: 10.160773
+Epoch 599 
+Prediction Loss: 10.118019
+Epoch 649 
+Prediction Loss: 10.010118
+Epoch 699 
+Prediction Loss: 9.990079
+Epoch 749 
+Prediction Loss: 9.875576
+Epoch 799 
+Prediction Loss: 9.859540
+Epoch 849 
+Prediction Loss: 9.736001
+Epoch 899 
+Prediction Loss: 9.740612
+Epoch 949 
+Prediction Loss: 9.643710
+Epoch 999 
+Prediction Loss: 9.569320
+Epoch 1049 
+Prediction Loss: 9.683108
+Epoch 1099 
+Prediction Loss: 9.528513
+Epoch 1149 
+Prediction Loss: 9.406815
+Epoch 1199 
+Prediction Loss: 9.349745
+Epoch 1249 
+Prediction Loss: 9.385346
+Epoch 1299 
+Prediction Loss: 9.325303
+Epoch 1349 
+Prediction Loss: 9.413846
+Epoch 1399 
+Prediction Loss: 9.193652
+Epoch 1449 
+Prediction Loss: 9.243207
+Epoch 1499 
+Prediction Loss: 9.060369
+Epoch 1549 
+Prediction Loss: 9.037505
+Epoch 1599 
+Prediction Loss: 8.948354
+Epoch 1649 
+Prediction Loss: 8.961213
+Epoch 1699 
+Prediction Loss: 8.845543
+Epoch 1749 
+Prediction Loss: 8.806255
+Epoch 1799 
+Prediction Loss: 8.725378
+Epoch 1849 
+Prediction Loss: 8.688925
+Epoch 1899 
+Prediction Loss: 8.645267
+Epoch 1949 
+Prediction Loss: 8.609888
+Epoch 1999 
+Prediction Loss: 8.640776
+Epoch 2049 
+Prediction Loss: 8.476805
+Epoch 2099 
+Prediction Loss: 8.539649
+Epoch 2149 
+Prediction Loss: 8.359750
+Epoch 2199 
+Prediction Loss: 8.451977
+Epoch 2249 
+Prediction Loss: 8.241740
+Epoch 2299 
+Prediction Loss: 8.325918
+Epoch 2349 
+Prediction Loss: 8.171716
+Epoch 2399 
+Prediction Loss: 8.106038
+Epoch 2449 
+Prediction Loss: 8.208107
+Epoch 2499 
+Prediction Loss: 8.049021
+Epoch 2549 
+Prediction Loss: 8.110932
+Epoch 2599 
+Prediction Loss: 7.978286
+Epoch 2649 
+Prediction Loss: 7.905254
+Epoch 2699 
+Prediction Loss: 7.851920
+Epoch 2749 
+Prediction Loss: 7.832385
+Epoch 2799 
+Prediction Loss: 7.742541
+Epoch 2849 
+Prediction Loss: 7.690989
+Epoch 2899 
+Prediction Loss: 7.714485
+Epoch 2949 
+Prediction Loss: 7.571606
+Epoch 2999 
+Prediction Loss: 7.614079
+[34m== Direct Regression: Testing in sample performance ==[0m
+Train Error 2.752529
+Insample Error 6.218237
+[31m========== repeat time 8 ==========[0m
+[34m== Ours: Training all ==[0m
+Epoch 49 
+Overall Loss: 13.632591
+Rec Loss: 10.850543
+KL Loss: 2.782048
+Y Loss: 1.059878
+T Loss: 10.320604
+Epoch 99 
+Overall Loss: 13.382673
+Rec Loss: 10.112761
+KL Loss: 3.269912
+Y Loss: 0.991554
+T Loss: 9.616983
+Epoch 149 
+Overall Loss: 13.320837
+Rec Loss: 10.019503
+KL Loss: 3.301335
+Y Loss: 1.016278
+T Loss: 9.511364
+Epoch 199 
+Overall Loss: 13.345725
+Rec Loss: 10.015811
+KL Loss: 3.329914
+Y Loss: 1.008900
+T Loss: 9.511362
+Epoch 249 
+Overall Loss: 13.309901
+Rec Loss: 9.965382
+KL Loss: 3.344518
+Y Loss: 0.972600
+T Loss: 9.479082
+Epoch 299 
+Overall Loss: 13.312088
+Rec Loss: 9.980502
+KL Loss: 3.331586
+Y Loss: 0.988383
+T Loss: 9.486311
+Epoch 349 
+Overall Loss: 13.284182
+Rec Loss: 9.957751
+KL Loss: 3.326431
+Y Loss: 1.019818
+T Loss: 9.447842
+Epoch 399 
+Overall Loss: 13.291774
+Rec Loss: 9.927326
+KL Loss: 3.364448
+Y Loss: 0.981697
+T Loss: 9.436477
+Epoch 449 
+Overall Loss: 13.264705
+Rec Loss: 9.901896
+KL Loss: 3.362808
+Y Loss: 0.976954
+T Loss: 9.413419
+Epoch 499 
+Overall Loss: 13.251627
+Rec Loss: 9.946255
+KL Loss: 3.305372
+Y Loss: 0.998834
+T Loss: 9.446838
+Epoch 549 
+Overall Loss: 13.250877
+Rec Loss: 9.915726
+KL Loss: 3.335151
+Y Loss: 0.988771
+T Loss: 9.421341
+Epoch 599 
+Overall Loss: 13.242146
+Rec Loss: 9.893849
+KL Loss: 3.348296
+Y Loss: 0.998872
+T Loss: 9.394413
+Epoch 649 
+Overall Loss: 13.237294
+Rec Loss: 9.912122
+KL Loss: 3.325172
+Y Loss: 1.030077
+T Loss: 9.397084
+Epoch 699 
+Overall Loss: 13.228838
+Rec Loss: 9.902885
+KL Loss: 3.325954
+Y Loss: 1.024815
+T Loss: 9.390477
+Epoch 749 
+Overall Loss: 13.235313
+Rec Loss: 9.911373
+KL Loss: 3.323940
+Y Loss: 1.041402
+T Loss: 9.390672
+Epoch 799 
+Overall Loss: 13.193645
+Rec Loss: 9.854351
+KL Loss: 3.339295
+Y Loss: 1.017887
+T Loss: 9.345407
+Epoch 849 
+Overall Loss: 13.215238
+Rec Loss: 9.888303
+KL Loss: 3.326935
+Y Loss: 1.016682
+T Loss: 9.379963
+Epoch 899 
+Overall Loss: 13.189164
+Rec Loss: 9.847551
+KL Loss: 3.341613
+Y Loss: 1.003177
+T Loss: 9.345962
+Epoch 949 
+Overall Loss: 13.186903
+Rec Loss: 9.845582
+KL Loss: 3.341321
+Y Loss: 0.979546
+T Loss: 9.355809
+Epoch 999 
+Overall Loss: 13.193299
+Rec Loss: 9.867442
+KL Loss: 3.325858
+Y Loss: 1.007281
+T Loss: 9.363801
+Epoch 1049 
+Overall Loss: 13.181878
+Rec Loss: 9.866638
+KL Loss: 3.315240
+Y Loss: 0.980130
+T Loss: 9.376573
+Epoch 1099 
+Overall Loss: 13.207640
+Rec Loss: 9.860620
+KL Loss: 3.347020
+Y Loss: 1.014588
+T Loss: 9.353326
+Epoch 1149 
+Overall Loss: 13.157869
+Rec Loss: 9.839519
+KL Loss: 3.318350
+Y Loss: 1.009128
+T Loss: 9.334955
+Epoch 1199 
+Overall Loss: 13.179109
+Rec Loss: 9.824491
+KL Loss: 3.354618
+Y Loss: 0.995379
+T Loss: 9.326801
+Epoch 1249 
+Overall Loss: 13.190460
+Rec Loss: 9.831227
+KL Loss: 3.359233
+Y Loss: 0.975795
+T Loss: 9.343329
+Epoch 1299 
+Overall Loss: 13.177579
+Rec Loss: 9.838924
+KL Loss: 3.338655
+Y Loss: 1.018781
+T Loss: 9.329534
+Epoch 1349 
+Overall Loss: 13.164657
+Rec Loss: 9.838958
+KL Loss: 3.325699
+Y Loss: 0.993216
+T Loss: 9.342350
+Epoch 1399 
+Overall Loss: 13.150219
+Rec Loss: 9.830461
+KL Loss: 3.319758
+Y Loss: 1.014567
+T Loss: 9.323178
+Epoch 1449 
+Overall Loss: 13.163120
+Rec Loss: 9.800029
+KL Loss: 3.363092
+Y Loss: 0.977578
+T Loss: 9.311240
+Epoch 1499 
+Overall Loss: 13.146183
+Rec Loss: 9.829474
+KL Loss: 3.316709
+Y Loss: 1.005355
+T Loss: 9.326796
+Epoch 1549 
+Overall Loss: 13.159363
+Rec Loss: 9.815987
+KL Loss: 3.343376
+Y Loss: 0.997368
+T Loss: 9.317303
+Epoch 1599 
+Overall Loss: 13.139749
+Rec Loss: 9.806211
+KL Loss: 3.333538
+Y Loss: 1.003762
+T Loss: 9.304330
+Epoch 1649 
+Overall Loss: 13.115862
+Rec Loss: 9.784373
+KL Loss: 3.331489
+Y Loss: 0.992274
+T Loss: 9.288236
+Epoch 1699 
+Overall Loss: 13.122077
+Rec Loss: 9.823483
+KL Loss: 3.298594
+Y Loss: 1.027820
+T Loss: 9.309574
+Epoch 1749 
+Overall Loss: 13.122504
+Rec Loss: 9.791818
+KL Loss: 3.330686
+Y Loss: 0.978395
+T Loss: 9.302620
+Epoch 1799 
+Overall Loss: 13.144308
+Rec Loss: 9.807657
+KL Loss: 3.336651
+Y Loss: 1.009729
+T Loss: 9.302793
+Epoch 1849 
+Overall Loss: 13.106452
+Rec Loss: 9.794751
+KL Loss: 3.311701
+Y Loss: 1.039488
+T Loss: 9.275007
+Epoch 1899 
+Overall Loss: 13.109269
+Rec Loss: 9.774684
+KL Loss: 3.334585
+Y Loss: 1.004550
+T Loss: 9.272409
+Epoch 1949 
+Overall Loss: 13.095614
+Rec Loss: 9.787176
+KL Loss: 3.308438
+Y Loss: 0.987750
+T Loss: 9.293301
+Epoch 1999 
+Overall Loss: 13.113738
+Rec Loss: 9.763176
+KL Loss: 3.350562
+Y Loss: 0.995718
+T Loss: 9.265317
+Epoch 2049 
+Overall Loss: 13.090632
+Rec Loss: 9.740889
+KL Loss: 3.349743
+Y Loss: 0.965088
+T Loss: 9.258344
+Epoch 2099 
+Overall Loss: 13.069912
+Rec Loss: 9.758795
+KL Loss: 3.311116
+Y Loss: 1.002741
+T Loss: 9.257425
+Epoch 2149 
+Overall Loss: 13.089275
+Rec Loss: 9.730195
+KL Loss: 3.359081
+Y Loss: 0.959981
+T Loss: 9.250204
+Epoch 2199 
+Overall Loss: 13.046505
+Rec Loss: 9.764501
+KL Loss: 3.282004
+Y Loss: 0.992231
+T Loss: 9.268385
+Epoch 2249 
+Overall Loss: 13.078946
+Rec Loss: 9.778471
+KL Loss: 3.300476
+Y Loss: 1.011495
+T Loss: 9.272723
+Epoch 2299 
+Overall Loss: 13.096352
+Rec Loss: 9.756355
+KL Loss: 3.339997
+Y Loss: 1.012310
+T Loss: 9.250200
+Epoch 2349 
+Overall Loss: 13.055439
+Rec Loss: 9.768530
+KL Loss: 3.286909
+Y Loss: 1.002440
+T Loss: 9.267310
+Epoch 2399 
+Overall Loss: 13.080184
+Rec Loss: 9.757262
+KL Loss: 3.322922
+Y Loss: 0.997151
+T Loss: 9.258687
+Epoch 2449 
+Overall Loss: 13.051574
+Rec Loss: 9.749277
+KL Loss: 3.302297
+Y Loss: 0.963188
+T Loss: 9.267683
+Epoch 2499 
+Overall Loss: 13.028580
+Rec Loss: 9.705399
+KL Loss: 3.323181
+Y Loss: 0.975040
+T Loss: 9.217879
+Epoch 2549 
+Overall Loss: 13.073565
+Rec Loss: 9.751790
+KL Loss: 3.321776
+Y Loss: 1.012440
+T Loss: 9.245570
+Epoch 2599 
+Overall Loss: 13.046613
+Rec Loss: 9.754584
+KL Loss: 3.292029
+Y Loss: 1.003481
+T Loss: 9.252844
+Epoch 2649 
+Overall Loss: 13.065279
+Rec Loss: 9.750408
+KL Loss: 3.314870
+Y Loss: 1.002514
+T Loss: 9.249152
+Epoch 2699 
+Overall Loss: 13.027733
+Rec Loss: 9.727240
+KL Loss: 3.300493
+Y Loss: 0.977572
+T Loss: 9.238454
+Epoch 2749 
+Overall Loss: 13.027191
+Rec Loss: 9.719639
+KL Loss: 3.307552
+Y Loss: 1.009990
+T Loss: 9.214644
+Epoch 2799 
+Overall Loss: 13.042367
+Rec Loss: 9.714987
+KL Loss: 3.327380
+Y Loss: 0.995542
+T Loss: 9.217215
+Epoch 2849 
+Overall Loss: 13.027745
+Rec Loss: 9.734338
+KL Loss: 3.293407
+Y Loss: 0.972275
+T Loss: 9.248201
+Epoch 2899 
+Overall Loss: 13.023162
+Rec Loss: 9.703191
+KL Loss: 3.319971
+Y Loss: 0.991825
+T Loss: 9.207279
+Epoch 2949 
+Overall Loss: 13.023180
+Rec Loss: 9.716498
+KL Loss: 3.306682
+Y Loss: 0.963094
+T Loss: 9.234951
+Epoch 2999 
+Overall Loss: 13.032014
+Rec Loss: 9.750198
+KL Loss: 3.281816
+Y Loss: 1.049957
+T Loss: 9.225219
+[34m== Ours: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 1.435650
+Epoch 99
+Rec Loss: 1.414310
+Epoch 149
+Rec Loss: 1.426688
+[34m== Ours: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 9.818638
+Epoch 99
+Rec Loss: 9.814358
+Epoch 149
+Rec Loss: 9.808173
+Epoch 199
+Rec Loss: 9.797533
+Epoch 249
+Rec Loss: 9.801528
+[34m== Ours: Testing in sample performance ==[0m
+Train Error: 0.378272
+Insample Error: 2.585006
+[34m== CEVAE: Training all ==[0m
+Epoch 49 
+Overall Loss: 24.825786
+Rec Loss: 20.214145
+KL Loss: 4.611641
+Y Loss: 12.611991
+T Loss: 13.089278
+X Loss: 0.818871
+[34m== CEVAE: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 3.490734
+Epoch 99
+Rec Loss: 3.493052
+[34m== CEVAE: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 2.845591
+Epoch 99
+Rec Loss: 2.819290
+Epoch 149
+Rec Loss: 2.830365
+[34m== CEVAE: Testing in sample performance ==[0m
+Train Error 2.724514
+Insample Error 3.969153
+[34m== Direct Regression: Training all ==[0m
+Epoch 49 
+Prediction Loss: 12.324259
+Epoch 99 
+Prediction Loss: 11.427379
+Epoch 149 
+Prediction Loss: 11.039489
+Epoch 199 
+Prediction Loss: 10.716312
+Epoch 249 
+Prediction Loss: 10.607493
+Epoch 299 
+Prediction Loss: 10.484909
+Epoch 349 
+Prediction Loss: 10.395142
+Epoch 399 
+Prediction Loss: 10.325383
+Epoch 449 
+Prediction Loss: 10.260705
+Epoch 499 
+Prediction Loss: 10.163369
+Epoch 549 
+Prediction Loss: 10.124317
+Epoch 599 
+Prediction Loss: 10.031808
+Epoch 649 
+Prediction Loss: 9.989351
+Epoch 699 
+Prediction Loss: 9.898427
+Epoch 749 
+Prediction Loss: 9.857391
+Epoch 799 
+Prediction Loss: 9.837300
+Epoch 849 
+Prediction Loss: 9.776001
+Epoch 899 
+Prediction Loss: 9.668760
+Epoch 949 
+Prediction Loss: 9.669161
+Epoch 999 
+Prediction Loss: 9.638379
+Epoch 1049 
+Prediction Loss: 9.686740
+Epoch 1099 
+Prediction Loss: 9.610264
+Epoch 1149 
+Prediction Loss: 9.453103
+Epoch 1199 
+Prediction Loss: 9.476452
+Epoch 1249 
+Prediction Loss: 9.317737
+Epoch 1299 
+Prediction Loss: 9.374816
+Epoch 1349 
+Prediction Loss: 9.278690
+Epoch 1399 
+Prediction Loss: 9.256101
+Epoch 1449 
+Prediction Loss: 9.316635
+Epoch 1499 
+Prediction Loss: 9.134006
+Epoch 1549 
+Prediction Loss: 9.192734
+Epoch 1599 
+Prediction Loss: 9.323713
+Epoch 1649 
+Prediction Loss: 9.014208
+Epoch 1699 
+Prediction Loss: 8.943756
+Epoch 1749 
+Prediction Loss: 8.914079
+Epoch 1799 
+Prediction Loss: 8.980231
+Epoch 1849 
+Prediction Loss: 8.832301
+Epoch 1899 
+Prediction Loss: 8.812253
+Epoch 1949 
+Prediction Loss: 8.808156
+Epoch 1999 
+Prediction Loss: 8.795949
+Epoch 2049 
+Prediction Loss: 8.710781
+Epoch 2099 
+Prediction Loss: 8.685257
+Epoch 2149 
+Prediction Loss: 8.623427
+Epoch 2199 
+Prediction Loss: 8.582550
+Epoch 2249 
+Prediction Loss: 8.527499
+Epoch 2299 
+Prediction Loss: 8.589762
+Epoch 2349 
+Prediction Loss: 8.501569
+Epoch 2399 
+Prediction Loss: 8.376785
+Epoch 2449 
+Prediction Loss: 8.439427
+Epoch 2499 
+Prediction Loss: 8.361337
+Epoch 2549 
+Prediction Loss: 8.320458
+Epoch 2599 
+Prediction Loss: 8.283216
+Epoch 2649 
+Prediction Loss: 8.182689
+Epoch 2699 
+Prediction Loss: 8.162709
+Epoch 2749 
+Prediction Loss: 8.095841
+Epoch 2799 
+Prediction Loss: 8.118805
+Epoch 2849 
+Prediction Loss: 8.067508
+Epoch 2899 
+Prediction Loss: 8.034139
+Epoch 2949 
+Prediction Loss: 8.069708
+Epoch 2999 
+Prediction Loss: 8.150080
+[34m== Direct Regression: Testing in sample performance ==[0m
+Train Error 2.858645
+Insample Error 6.239550
+[31m========== repeat time 9 ==========[0m
+[34m== Ours: Training all ==[0m
+Epoch 49 
+Overall Loss: 13.638856
+Rec Loss: 10.802216
+KL Loss: 2.836641
+Y Loss: 1.029204
+T Loss: 10.287613
+Epoch 99 
+Overall Loss: 13.395955
+Rec Loss: 10.124392
+KL Loss: 3.271563
+Y Loss: 0.983625
+T Loss: 9.632580
+Epoch 149 
+Overall Loss: 13.342578
+Rec Loss: 10.039165
+KL Loss: 3.303413
+Y Loss: 0.993528
+T Loss: 9.542401
+Epoch 199 
+Overall Loss: 13.340165
+Rec Loss: 10.008093
+KL Loss: 3.332072
+Y Loss: 0.981192
+T Loss: 9.517497
+Epoch 249 
+Overall Loss: 13.288007
+Rec Loss: 9.989087
+KL Loss: 3.298921
+Y Loss: 1.014458
+T Loss: 9.481857
+Epoch 299 
+Overall Loss: 13.296254
+Rec Loss: 9.935835
+KL Loss: 3.360418
+Y Loss: 0.969251
+T Loss: 9.451210
+Epoch 349 
+Overall Loss: 13.263018
+Rec Loss: 9.934650
+KL Loss: 3.328367
+Y Loss: 1.007476
+T Loss: 9.430913
+Epoch 399 
+Overall Loss: 13.261784
+Rec Loss: 9.895780
+KL Loss: 3.366004
+Y Loss: 0.989310
+T Loss: 9.401125
+Epoch 449 
+Overall Loss: 13.267570
+Rec Loss: 9.912346
+KL Loss: 3.355224
+Y Loss: 1.002226
+T Loss: 9.411233
+Epoch 499 
+Overall Loss: 13.252113
+Rec Loss: 9.914736
+KL Loss: 3.337376
+Y Loss: 1.023701
+T Loss: 9.402886
+Epoch 549 
+Overall Loss: 13.258577
+Rec Loss: 9.902569
+KL Loss: 3.356007
+Y Loss: 0.996534
+T Loss: 9.404302
+Epoch 599 
+Overall Loss: 13.244114
+Rec Loss: 9.878322
+KL Loss: 3.365792
+Y Loss: 0.965177
+T Loss: 9.395733
+Epoch 649 
+Overall Loss: 13.217950
+Rec Loss: 9.869005
+KL Loss: 3.348945
+Y Loss: 0.967807
+T Loss: 9.385101
+Epoch 699 
+Overall Loss: 13.206264
+Rec Loss: 9.876812
+KL Loss: 3.329452
+Y Loss: 0.992027
+T Loss: 9.380799
+Epoch 749 
+Overall Loss: 13.224707
+Rec Loss: 9.851541
+KL Loss: 3.373166
+Y Loss: 0.982235
+T Loss: 9.360424
+Epoch 799 
+Overall Loss: 13.193043
+Rec Loss: 9.846634
+KL Loss: 3.346409
+Y Loss: 0.997061
+T Loss: 9.348104
+Epoch 849 
+Overall Loss: 13.207592
+Rec Loss: 9.898047
+KL Loss: 3.309545
+Y Loss: 1.026500
+T Loss: 9.384798
+Epoch 899 
+Overall Loss: 13.178622
+Rec Loss: 9.864972
+KL Loss: 3.313650
+Y Loss: 0.993188
+T Loss: 9.368378
+Epoch 949 
+Overall Loss: 13.175317
+Rec Loss: 9.850034
+KL Loss: 3.325282
+Y Loss: 0.986076
+T Loss: 9.356996
+Epoch 999 
+Overall Loss: 13.170661
+Rec Loss: 9.856220
+KL Loss: 3.314441
+Y Loss: 1.018205
+T Loss: 9.347117
+Epoch 1049 
+Overall Loss: 13.189472
+Rec Loss: 9.849274
+KL Loss: 3.340198
+Y Loss: 1.020471
+T Loss: 9.339038
+Epoch 1099 
+Overall Loss: 13.165892
+Rec Loss: 9.839712
+KL Loss: 3.326180
+Y Loss: 1.003156
+T Loss: 9.338134
+Epoch 1149 
+Overall Loss: 13.159096
+Rec Loss: 9.822894
+KL Loss: 3.336201
+Y Loss: 1.011147
+T Loss: 9.317322
+Epoch 1199 
+Overall Loss: 13.171761
+Rec Loss: 9.824304
+KL Loss: 3.347457
+Y Loss: 0.994936
+T Loss: 9.326836
+Epoch 1249 
+Overall Loss: 13.143200
+Rec Loss: 9.863001
+KL Loss: 3.280199
+Y Loss: 1.016824
+T Loss: 9.354589
+Epoch 1299 
+Overall Loss: 13.156707
+Rec Loss: 9.821903
+KL Loss: 3.334804
+Y Loss: 0.986217
+T Loss: 9.328794
+Epoch 1349 
+Overall Loss: 13.153422
+Rec Loss: 9.799110
+KL Loss: 3.354313
+Y Loss: 0.977028
+T Loss: 9.310596
+Epoch 1399 
+Overall Loss: 13.144064
+Rec Loss: 9.824382
+KL Loss: 3.319683
+Y Loss: 1.008284
+T Loss: 9.320239
+Epoch 1449 
+Overall Loss: 13.131703
+Rec Loss: 9.817966
+KL Loss: 3.313737
+Y Loss: 1.018559
+T Loss: 9.308687
+Epoch 1499 
+Overall Loss: 13.151119
+Rec Loss: 9.830644
+KL Loss: 3.320475
+Y Loss: 1.010017
+T Loss: 9.325636
+Epoch 1549 
+Overall Loss: 13.109987
+Rec Loss: 9.809298
+KL Loss: 3.300688
+Y Loss: 1.036249
+T Loss: 9.291174
+Epoch 1599 
+Overall Loss: 13.134798
+Rec Loss: 9.796382
+KL Loss: 3.338415
+Y Loss: 1.002860
+T Loss: 9.294953
+Epoch 1649 
+Overall Loss: 13.105775
+Rec Loss: 9.779661
+KL Loss: 3.326114
+Y Loss: 0.975913
+T Loss: 9.291705
+Epoch 1699 
+Overall Loss: 13.117026
+Rec Loss: 9.785379
+KL Loss: 3.331646
+Y Loss: 0.991184
+T Loss: 9.289787
+Epoch 1749 
+Overall Loss: 13.121305
+Rec Loss: 9.816133
+KL Loss: 3.305173
+Y Loss: 1.043327
+T Loss: 9.294469
+Epoch 1799 
+Overall Loss: 13.113714
+Rec Loss: 9.790273
+KL Loss: 3.323441
+Y Loss: 1.013528
+T Loss: 9.283509
+Epoch 1849 
+Overall Loss: 13.104344
+Rec Loss: 9.813283
+KL Loss: 3.291061
+Y Loss: 1.018781
+T Loss: 9.303893
+Epoch 1899 
+Overall Loss: 13.128163
+Rec Loss: 9.787947
+KL Loss: 3.340217
+Y Loss: 1.022241
+T Loss: 9.276827
+Epoch 1949 
+Overall Loss: 13.083755
+Rec Loss: 9.784629
+KL Loss: 3.299126
+Y Loss: 1.013317
+T Loss: 9.277971
+Epoch 1999 
+Overall Loss: 13.106826
+Rec Loss: 9.795984
+KL Loss: 3.310842
+Y Loss: 1.017072
+T Loss: 9.287448
+Epoch 2049 
+Overall Loss: 13.093827
+Rec Loss: 9.779541
+KL Loss: 3.314286
+Y Loss: 0.985765
+T Loss: 9.286658
+Epoch 2099 
+Overall Loss: 13.093902
+Rec Loss: 9.771590
+KL Loss: 3.322312
+Y Loss: 0.987013
+T Loss: 9.278083
+Epoch 2149 
+Overall Loss: 13.081464
+Rec Loss: 9.769980
+KL Loss: 3.311484
+Y Loss: 1.003784
+T Loss: 9.268088
+Epoch 2199 
+Overall Loss: 13.083280
+Rec Loss: 9.774601
+KL Loss: 3.308680
+Y Loss: 0.992715
+T Loss: 9.278244
+Epoch 2249 
+Overall Loss: 13.087578
+Rec Loss: 9.768231
+KL Loss: 3.319347
+Y Loss: 0.981827
+T Loss: 9.277317
+Epoch 2299 
+Overall Loss: 13.084262
+Rec Loss: 9.764934
+KL Loss: 3.319329
+Y Loss: 1.032652
+T Loss: 9.248607
+Epoch 2349 
+Overall Loss: 13.083468
+Rec Loss: 9.761078
+KL Loss: 3.322390
+Y Loss: 0.979690
+T Loss: 9.271233
+Epoch 2399 
+Overall Loss: 13.086703
+Rec Loss: 9.762582
+KL Loss: 3.324121
+Y Loss: 0.996247
+T Loss: 9.264459
+Epoch 2449 
+Overall Loss: 13.080834
+Rec Loss: 9.750830
+KL Loss: 3.330004
+Y Loss: 0.978452
+T Loss: 9.261603
+Epoch 2499 
+Overall Loss: 13.052813
+Rec Loss: 9.727477
+KL Loss: 3.325336
+Y Loss: 0.970409
+T Loss: 9.242272
+Epoch 2549 
+Overall Loss: 13.061182
+Rec Loss: 9.725974
+KL Loss: 3.335208
+Y Loss: 0.978462
+T Loss: 9.236743
+Epoch 2599 
+Overall Loss: 13.059423
+Rec Loss: 9.782711
+KL Loss: 3.276712
+Y Loss: 1.031259
+T Loss: 9.267081
+Epoch 2649 
+Overall Loss: 13.080778
+Rec Loss: 9.733147
+KL Loss: 3.347631
+Y Loss: 0.986571
+T Loss: 9.239862
+Epoch 2699 
+Overall Loss: 13.061219
+Rec Loss: 9.769054
+KL Loss: 3.292165
+Y Loss: 1.032785
+T Loss: 9.252662
+Epoch 2749 
+Overall Loss: 13.063545
+Rec Loss: 9.776092
+KL Loss: 3.287453
+Y Loss: 1.025400
+T Loss: 9.263392
+Epoch 2799 
+Overall Loss: 13.048241
+Rec Loss: 9.743001
+KL Loss: 3.305240
+Y Loss: 0.978770
+T Loss: 9.253616
+Epoch 2849 
+Overall Loss: 13.062640
+Rec Loss: 9.743896
+KL Loss: 3.318744
+Y Loss: 0.987357
+T Loss: 9.250217
+Epoch 2899 
+Overall Loss: 13.050068
+Rec Loss: 9.725127
+KL Loss: 3.324941
+Y Loss: 0.965633
+T Loss: 9.242311
+Epoch 2949 
+Overall Loss: 13.049016
+Rec Loss: 9.725563
+KL Loss: 3.323453
+Y Loss: 1.025968
+T Loss: 9.212578
+Epoch 2999 
+Overall Loss: 13.035285
+Rec Loss: 9.760067
+KL Loss: 3.275218
+Y Loss: 1.049283
+T Loss: 9.235425
+[34m== Ours: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 1.450345
+Epoch 99
+Rec Loss: 1.423037
+Epoch 149
+Rec Loss: 1.416848
+Epoch 199
+Rec Loss: 1.429699
+[34m== Ours: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 9.831552
+Epoch 99
+Rec Loss: 9.825915
+Epoch 149
+Rec Loss: 9.822689
+Epoch 199
+Rec Loss: 9.805619
+Epoch 249
+Rec Loss: 9.795755
+Epoch 299
+Rec Loss: 9.779906
+Epoch 349
+Rec Loss: 9.792364
+[34m== Ours: Testing in sample performance ==[0m
+Train Error: 0.377697
+Insample Error: 2.774947
+[34m== CEVAE: Training all ==[0m
+Epoch 49 
+Overall Loss: 25.238668
+Rec Loss: 20.742367
+KL Loss: 4.496300
+Y Loss: 12.999028
+T Loss: 13.076190
+X Loss: 1.166664
+[34m== CEVAE: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 3.496307
+Epoch 99
+Rec Loss: 3.492124
+Epoch 149
+Rec Loss: 3.491415
+Epoch 199
+Rec Loss: 3.487768
+Epoch 249
+Rec Loss: 3.491708
+[34m== CEVAE: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 3.013787
+Epoch 99
+Rec Loss: 3.017718
+[34m== CEVAE: Testing in sample performance ==[0m
+Train Error 2.754825
+Insample Error 3.875251
+[34m== Direct Regression: Training all ==[0m
+Epoch 49 
+Prediction Loss: 12.564458
+Epoch 99 
+Prediction Loss: 11.926949
+Epoch 149 
+Prediction Loss: 11.418920
+Epoch 199 
+Prediction Loss: 10.881217
+Epoch 249 
+Prediction Loss: 10.478343
+Epoch 299 
+Prediction Loss: 10.347365
+Epoch 349 
+Prediction Loss: 10.185173
+Epoch 399 
+Prediction Loss: 10.037004
+Epoch 449 
+Prediction Loss: 9.889004
+Epoch 499 
+Prediction Loss: 9.719101
+Epoch 549 
+Prediction Loss: 9.675853
+Epoch 599 
+Prediction Loss: 9.553036
+Epoch 649 
+Prediction Loss: 9.407569
+Epoch 699 
+Prediction Loss: 9.316070
+Epoch 749 
+Prediction Loss: 9.174186
+Epoch 799 
+Prediction Loss: 9.098763
+Epoch 849 
+Prediction Loss: 8.959032
+Epoch 899 
+Prediction Loss: 8.839102
+Epoch 949 
+Prediction Loss: 8.818455
+Epoch 999 
+Prediction Loss: 8.628468
+Epoch 1049 
+Prediction Loss: 8.513543
+Epoch 1099 
+Prediction Loss: 8.454807
+Epoch 1149 
+Prediction Loss: 8.356374
+Epoch 1199 
+Prediction Loss: 8.188442
+Epoch 1249 
+Prediction Loss: 8.086699
+Epoch 1299 
+Prediction Loss: 7.997562
+Epoch 1349 
+Prediction Loss: 7.877395
+Epoch 1399 
+Prediction Loss: 7.844995
+Epoch 1449 
+Prediction Loss: 7.662853
+Epoch 1499 
+Prediction Loss: 7.608022
+Epoch 1549 
+Prediction Loss: 7.554666
+Epoch 1599 
+Prediction Loss: 7.449186
+Epoch 1649 
+Prediction Loss: 7.410067
+Epoch 1699 
+Prediction Loss: 7.257647
+Epoch 1749 
+Prediction Loss: 7.214162
+Epoch 1799 
+Prediction Loss: 7.222061
+Epoch 1849 
+Prediction Loss: 7.028849
+Epoch 1899 
+Prediction Loss: 7.040100
+Epoch 1949 
+Prediction Loss: 6.902137
+Epoch 1999 
+Prediction Loss: 6.838503
+Epoch 2049 
+Prediction Loss: 6.821723
+Epoch 2099 
+Prediction Loss: 6.770644
+Epoch 2149 
+Prediction Loss: 6.711614
+Epoch 2199 
+Prediction Loss: 6.641908
+Epoch 2249 
+Prediction Loss: 6.614456
+Epoch 2299 
+Prediction Loss: 6.557853
+Epoch 2349 
+Prediction Loss: 6.487508
+Epoch 2399 
+Prediction Loss: 6.446299
+Epoch 2449 
+Prediction Loss: 6.442977
+Epoch 2499 
+Prediction Loss: 6.360497
+Epoch 2549 
+Prediction Loss: 6.300880
+Epoch 2599 
+Prediction Loss: 6.259176
+Epoch 2649 
+Prediction Loss: 6.195395
+Epoch 2699 
+Prediction Loss: 6.169957
+Epoch 2749 
+Prediction Loss: 6.169729
+Epoch 2799 
+Prediction Loss: 6.053530
+Epoch 2849 
+Prediction Loss: 6.119761
+Epoch 2899 
+Prediction Loss: 6.002767
+Epoch 2949 
+Prediction Loss: 6.030020
+Epoch 2999 
+Prediction Loss: 5.939614
+[34m== Direct Regression: Testing in sample performance ==[0m
+Train Error 2.421730
+Insample Error 6.373002
+[31m========== repeat time 10 ==========[0m
+[34m== Ours: Training all ==[0m
+Epoch 49 
+Overall Loss: 13.615734
+Rec Loss: 10.833916
+KL Loss: 2.781818
+Y Loss: 1.070681
+T Loss: 10.298575
+Epoch 99 
+Overall Loss: 13.363052
+Rec Loss: 10.152213
+KL Loss: 3.210839
+Y Loss: 1.003854
+T Loss: 9.650286
+Epoch 149 
+Overall Loss: 13.326336
+Rec Loss: 10.068244
+KL Loss: 3.258092
+Y Loss: 1.024439
+T Loss: 9.556024
+Epoch 199 
+Overall Loss: 13.319411
+Rec Loss: 10.008132
+KL Loss: 3.311278
+Y Loss: 0.990299
+T Loss: 9.512982
+Epoch 249 
+Overall Loss: 13.293143
+Rec Loss: 10.017479
+KL Loss: 3.275665
+Y Loss: 1.011230
+T Loss: 9.511863
+Epoch 299 
+Overall Loss: 13.296126
+Rec Loss: 9.976572
+KL Loss: 3.319553
+Y Loss: 0.991097
+T Loss: 9.481024
+Epoch 349 
+Overall Loss: 13.296814
+Rec Loss: 9.953896
+KL Loss: 3.342917
+Y Loss: 1.010298
+T Loss: 9.448747
+Epoch 399 
+Overall Loss: 13.254483
+Rec Loss: 9.941984
+KL Loss: 3.312499
+Y Loss: 0.989692
+T Loss: 9.447138
+Epoch 449 
+Overall Loss: 13.274456
+Rec Loss: 9.916636
+KL Loss: 3.357820
+Y Loss: 0.979832
+T Loss: 9.426721
+Epoch 499 
+Overall Loss: 13.252694
+Rec Loss: 9.920333
+KL Loss: 3.332361
+Y Loss: 0.996191
+T Loss: 9.422237
+Epoch 549 
+Overall Loss: 13.261661
+Rec Loss: 9.905058
+KL Loss: 3.356602
+Y Loss: 0.993798
+T Loss: 9.408160
+Epoch 599 
+Overall Loss: 13.251276
+Rec Loss: 9.910141
+KL Loss: 3.341135
+Y Loss: 1.027336
+T Loss: 9.396473
+Epoch 649 
+Overall Loss: 13.216659
+Rec Loss: 9.894048
+KL Loss: 3.322611
+Y Loss: 0.982873
+T Loss: 9.402611
+Epoch 699 
+Overall Loss: 13.240455
+Rec Loss: 9.900770
+KL Loss: 3.339685
+Y Loss: 1.017401
+T Loss: 9.392069
+Epoch 749 
+Overall Loss: 13.220938
+Rec Loss: 9.876497
+KL Loss: 3.344441
+Y Loss: 0.995310
+T Loss: 9.378842
+Epoch 799 
+Overall Loss: 13.202437
+Rec Loss: 9.854411
+KL Loss: 3.348026
+Y Loss: 0.970639
+T Loss: 9.369092
+Epoch 849 
+Overall Loss: 13.200385
+Rec Loss: 9.867994
+KL Loss: 3.332391
+Y Loss: 1.000654
+T Loss: 9.367666
+Epoch 899 
+Overall Loss: 13.188367
+Rec Loss: 9.864559
+KL Loss: 3.323808
+Y Loss: 0.995237
+T Loss: 9.366940
+Epoch 949 
+Overall Loss: 13.202033
+Rec Loss: 9.880426
+KL Loss: 3.321606
+Y Loss: 0.996020
+T Loss: 9.382416
+Epoch 999 
+Overall Loss: 13.205467
+Rec Loss: 9.890362
+KL Loss: 3.315105
+Y Loss: 1.014140
+T Loss: 9.383291
+Epoch 1049 
+Overall Loss: 13.194009
+Rec Loss: 9.857677
+KL Loss: 3.336332
+Y Loss: 1.057156
+T Loss: 9.329099
+Epoch 1099 
+Overall Loss: 13.177171
+Rec Loss: 9.847908
+KL Loss: 3.329263
+Y Loss: 1.022714
+T Loss: 9.336551
+Epoch 1149 
+Overall Loss: 13.157718
+Rec Loss: 9.828718
+KL Loss: 3.329000
+Y Loss: 0.985486
+T Loss: 9.335975
+Epoch 1199 
+Overall Loss: 13.167011
+Rec Loss: 9.821526
+KL Loss: 3.345485
+Y Loss: 1.013401
+T Loss: 9.314826
+Epoch 1249 
+Overall Loss: 13.174465
+Rec Loss: 9.831637
+KL Loss: 3.342828
+Y Loss: 0.987979
+T Loss: 9.337648
+Epoch 1299 
+Overall Loss: 13.166524
+Rec Loss: 9.849380
+KL Loss: 3.317144
+Y Loss: 1.005091
+T Loss: 9.346835
+Epoch 1349 
+Overall Loss: 13.153234
+Rec Loss: 9.844631
+KL Loss: 3.308603
+Y Loss: 0.989291
+T Loss: 9.349985
+Epoch 1399 
+Overall Loss: 13.155169
+Rec Loss: 9.859126
+KL Loss: 3.296043
+Y Loss: 1.019262
+T Loss: 9.349495
+Epoch 1449 
+Overall Loss: 13.161859
+Rec Loss: 9.814953
+KL Loss: 3.346906
+Y Loss: 0.985926
+T Loss: 9.321990
+Epoch 1499 
+Overall Loss: 13.168764
+Rec Loss: 9.843229
+KL Loss: 3.325534
+Y Loss: 1.035010
+T Loss: 9.325724
+Epoch 1549 
+Overall Loss: 13.148246
+Rec Loss: 9.845365
+KL Loss: 3.302881
+Y Loss: 1.000114
+T Loss: 9.345308
+Epoch 1599 
+Overall Loss: 13.134361
+Rec Loss: 9.810994
+KL Loss: 3.323367
+Y Loss: 0.978727
+T Loss: 9.321631
+Epoch 1649 
+Overall Loss: 13.115872
+Rec Loss: 9.828346
+KL Loss: 3.287526
+Y Loss: 1.020776
+T Loss: 9.317958
+Epoch 1699 
+Overall Loss: 13.136409
+Rec Loss: 9.820049
+KL Loss: 3.316360
+Y Loss: 1.024259
+T Loss: 9.307919
+Epoch 1749 
+Overall Loss: 13.130873
+Rec Loss: 9.803063
+KL Loss: 3.327810
+Y Loss: 1.015594
+T Loss: 9.295266
+Epoch 1799 
+Overall Loss: 13.110797
+Rec Loss: 9.796697
+KL Loss: 3.314101
+Y Loss: 0.991008
+T Loss: 9.301193
+Epoch 1849 
+Overall Loss: 13.126835
+Rec Loss: 9.808549
+KL Loss: 3.318286
+Y Loss: 0.988719
+T Loss: 9.314190
+Epoch 1899 
+Overall Loss: 13.106052
+Rec Loss: 9.775275
+KL Loss: 3.330777
+Y Loss: 0.996247
+T Loss: 9.277152
+Epoch 1949 
+Overall Loss: 13.142298
+Rec Loss: 9.795748
+KL Loss: 3.346550
+Y Loss: 0.975019
+T Loss: 9.308239
+Epoch 1999 
+Overall Loss: 13.141150
+Rec Loss: 9.781202
+KL Loss: 3.359948
+Y Loss: 1.006265
+T Loss: 9.278070
+Epoch 2049 
+Overall Loss: 13.108136
+Rec Loss: 9.780108
+KL Loss: 3.328028
+Y Loss: 1.007762
+T Loss: 9.276227
+Epoch 2099 
+Overall Loss: 13.093281
+Rec Loss: 9.760381
+KL Loss: 3.332900
+Y Loss: 0.964898
+T Loss: 9.277931
+Epoch 2149 
+Overall Loss: 13.091661
+Rec Loss: 9.759101
+KL Loss: 3.332559
+Y Loss: 0.993066
+T Loss: 9.262568
+Epoch 2199 
+Overall Loss: 13.106479
+Rec Loss: 9.772132
+KL Loss: 3.334347
+Y Loss: 0.995311
+T Loss: 9.274477
+Epoch 2249 
+Overall Loss: 13.097568
+Rec Loss: 9.767878
+KL Loss: 3.329690
+Y Loss: 0.983603
+T Loss: 9.276077
+Epoch 2299 
+Overall Loss: 13.093082
+Rec Loss: 9.765178
+KL Loss: 3.327904
+Y Loss: 0.996628
+T Loss: 9.266864
+Epoch 2349 
+Overall Loss: 13.083121
+Rec Loss: 9.773958
+KL Loss: 3.309163
+Y Loss: 0.990306
+T Loss: 9.278805
+Epoch 2399 
+Overall Loss: 13.121694
+Rec Loss: 9.795179
+KL Loss: 3.326515
+Y Loss: 1.018197
+T Loss: 9.286081
+Epoch 2449 
+Overall Loss: 13.090245
+Rec Loss: 9.756192
+KL Loss: 3.334053
+Y Loss: 0.980649
+T Loss: 9.265868
+Epoch 2499 
+Overall Loss: 13.094926
+Rec Loss: 9.774173
+KL Loss: 3.320753
+Y Loss: 1.016669
+T Loss: 9.265839
+Epoch 2549 
+Overall Loss: 13.051363
+Rec Loss: 9.713183
+KL Loss: 3.338180
+Y Loss: 0.970042
+T Loss: 9.228162
+Epoch 2599 
+Overall Loss: 13.069781
+Rec Loss: 9.737195
+KL Loss: 3.332586
+Y Loss: 0.995459
+T Loss: 9.239466
+Epoch 2649 
+Overall Loss: 13.053343
+Rec Loss: 9.761069
+KL Loss: 3.292274
+Y Loss: 0.975070
+T Loss: 9.273534
+Epoch 2699 
+Overall Loss: 13.063728
+Rec Loss: 9.737816
+KL Loss: 3.325912
+Y Loss: 0.979800
+T Loss: 9.247915
+Epoch 2749 
+Overall Loss: 13.054371
+Rec Loss: 9.720279
+KL Loss: 3.334092
+Y Loss: 0.983803
+T Loss: 9.228377
+Epoch 2799 
+Overall Loss: 13.043331
+Rec Loss: 9.741637
+KL Loss: 3.301694
+Y Loss: 1.006987
+T Loss: 9.238143
+Epoch 2849 
+Overall Loss: 13.022209
+Rec Loss: 9.721988
+KL Loss: 3.300221
+Y Loss: 1.005132
+T Loss: 9.219422
+Epoch 2899 
+Overall Loss: 13.038580
+Rec Loss: 9.727545
+KL Loss: 3.311035
+Y Loss: 0.982231
+T Loss: 9.236429
+Epoch 2949 
+Overall Loss: 13.066193
+Rec Loss: 9.719676
+KL Loss: 3.346517
+Y Loss: 1.000010
+T Loss: 9.219671
+Epoch 2999 
+Overall Loss: 13.037263
+Rec Loss: 9.744752
+KL Loss: 3.292511
+Y Loss: 1.005700
+T Loss: 9.241902
+[34m== Ours: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 1.431687
+Epoch 99
+Rec Loss: 1.415417
+Epoch 149
+Rec Loss: 1.420651
+[34m== Ours: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 9.826783
+Epoch 99
+Rec Loss: 9.819692
+Epoch 149
+Rec Loss: 9.814547
+Epoch 199
+Rec Loss: 9.807586
+Epoch 249
+Rec Loss: 9.804601
+Epoch 299
+Rec Loss: 9.790068
+Epoch 349
+Rec Loss: 9.783927
+Epoch 399
+Rec Loss: 9.780621
+Epoch 449
+Rec Loss: 9.787984
+[34m== Ours: Testing in sample performance ==[0m
+Train Error: 0.381544
+Insample Error: 2.456564
+[34m== CEVAE: Training all ==[0m
+Epoch 49 
+Overall Loss: 24.538577
+Rec Loss: 19.590515
+KL Loss: 4.948063
+Y Loss: 11.497393
+T Loss: 13.044601
+X Loss: 0.797217
+[34m== CEVAE: Reconstructing confounder ==[0m
+Epoch 49
+Rec Loss: 3.486691
+Epoch 99
+Rec Loss: 3.478282
+Epoch 149
+Rec Loss: 3.474378
+Epoch 199
+Rec Loss: 3.479372
+[34m== CEVAE: Reconstructing noise ==[0m
+Epoch 49
+Rec Loss: 2.975193
+Epoch 99
+Rec Loss: 2.965173
+Epoch 149
+Rec Loss: 2.967263
+[34m== CEVAE: Testing in sample performance ==[0m
+Train Error 2.590073
+Insample Error 3.879829
+[34m== Direct Regression: Training all ==[0m
+Epoch 49 
+Prediction Loss: 12.591103
+Epoch 99 
+Prediction Loss: 11.798690
+Epoch 149 
+Prediction Loss: 11.285533
+Epoch 199 
+Prediction Loss: 10.935270
+Epoch 249 
+Prediction Loss: 10.612225
+Epoch 299 
+Prediction Loss: 10.501158
+Epoch 349 
+Prediction Loss: 10.246516
+Epoch 399 
+Prediction Loss: 10.123133
+Epoch 449 
+Prediction Loss: 9.995669
+Epoch 499 
+Prediction Loss: 9.905449
+Epoch 549 
+Prediction Loss: 9.806921
+Epoch 599 
+Prediction Loss: 9.678942
+Epoch 649 
+Prediction Loss: 9.601741
+Epoch 699 
+Prediction Loss: 9.528580
+Epoch 749 
+Prediction Loss: 9.391941
+Epoch 799 
+Prediction Loss: 9.280326
+Epoch 849 
+Prediction Loss: 9.163294
+Epoch 899 
+Prediction Loss: 9.066265
+Epoch 949 
+Prediction Loss: 8.990677
+Epoch 999 
+Prediction Loss: 8.891962
+Epoch 1049 
+Prediction Loss: 8.885669
+Epoch 1099 
+Prediction Loss: 8.710810
+Epoch 1149 
+Prediction Loss: 8.631152
+Epoch 1199 
+Prediction Loss: 8.541969
+Epoch 1249 
+Prediction Loss: 8.428260
+Epoch 1299 
+Prediction Loss: 8.451302
+Epoch 1349 
+Prediction Loss: 8.332245
+Epoch 1399 
+Prediction Loss: 8.199506
+Epoch 1449 
+Prediction Loss: 8.140173
+Epoch 1499 
+Prediction Loss: 8.209479
+Epoch 1549 
+Prediction Loss: 7.945045
+Epoch 1599 
+Prediction Loss: 7.906961
+Epoch 1649 
+Prediction Loss: 7.877310
+Epoch 1699 
+Prediction Loss: 7.725360
+Epoch 1749 
+Prediction Loss: 7.622006
+Epoch 1799 
+Prediction Loss: 7.616887
+Epoch 1849 
+Prediction Loss: 7.525889
+Epoch 1899 
+Prediction Loss: 7.482419
+Epoch 1949 
+Prediction Loss: 7.436368
+Epoch 1999 
+Prediction Loss: 7.355297
+Epoch 2049 
+Prediction Loss: 7.297139
+Epoch 2099 
+Prediction Loss: 7.285914
+Epoch 2149 
+Prediction Loss: 7.176923
+Epoch 2199 
+Prediction Loss: 7.320614
+Epoch 2249 
+Prediction Loss: 7.116819
+Epoch 2299 
+Prediction Loss: 7.072740
+Epoch 2349 
+Prediction Loss: 6.945596
+Epoch 2399 
+Prediction Loss: 6.995729
+Epoch 2449 
+Prediction Loss: 6.887925
+Epoch 2499 
+Prediction Loss: 6.816563
+Epoch 2549 
+Prediction Loss: 6.773537
+Epoch 2599 
+Prediction Loss: 6.858616
+Epoch 2649 
+Prediction Loss: 6.795688
+Epoch 2699 
+Prediction Loss: 6.626989
+Epoch 2749 
+Prediction Loss: 6.646241
+Epoch 2799 
+Prediction Loss: 6.577523
+Epoch 2849 
+Prediction Loss: 6.521319
+Epoch 2899 
+Prediction Loss: 6.434246
+Epoch 2949 
+Prediction Loss: 6.398853
+Epoch 2999 
+Prediction Loss: 6.446478
+[34m== Direct Regression: Testing in sample performance ==[0m
+Train Error 2.510205
+Insample Error 6.293395
+Ours, Train RMSE
+0.3664, 
+0.3583, 
+0.3478, 
+0.3839, 
+0.3473, 
+0.3767, 
+0.4030, 
+0.3783, 
+0.3777, 
+0.3815, 
+CEVAE, Train RMSE
+2.6866, 
+2.8720, 
+3.1004, 
+3.1200, 
+2.8583, 
+2.7643, 
+2.9180, 
+2.7245, 
+2.7548, 
+2.5901, 
+Ours, Insample RMSE
+3.4992, 
+3.0305, 
+2.6893, 
+2.6664, 
+2.7320, 
+2.5466, 
+2.4281, 
+2.5850, 
+2.7749, 
+2.4566, 
+CEVAE, Insample RMSE
+3.8102, 
+3.9463, 
+4.0125, 
+4.0345, 
+3.9887, 
+3.9721, 
+3.9914, 
+3.9692, 
+3.8753, 
+3.8798, 
+Direct Regression, Insample RMSE
+6.3234, 
+6.1615, 
+6.3213, 
+6.3307, 
+6.2769, 
+6.1565, 
+6.2182, 
+6.2395, 
+6.3730, 
+6.2934, 
+Train, RMSE mean 0.3721 std 0.0164
+CEVAE, RMSE mean 2.8389 std 0.1631
+Ours, RMSE mean 2.7409 std 0.3015, reconstruct confounder 1.4328 (0.0223) noise 9.7936 (0.0097)
+CEVAE, RMSE mean 3.9480 std 0.0672, reconstruct confounder 3.4897 (0.0149) noise 2.9454 (0.1312)
+Direct Regression, RMSE mean 6.2694 std 0.0697

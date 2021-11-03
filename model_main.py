@@ -539,8 +539,9 @@ class VAE:
         return z_infer
 
 
-class TVAE:
+class TVAE(nn.Module):
     def __init__(self, latent_dim, hidden_dim, output_dim_bin, n_layers):
+        super().__init__()
         self.decoder_bin = MLP(latent_dim, output_dim_bin, hidden_dim, n_layers, True)
         self.encoder_mean = MLP(output_dim_bin, latent_dim, hidden_dim, n_layers)
         self.encoder_logv = MLP(output_dim_bin, latent_dim, hidden_dim, n_layers)
@@ -552,16 +553,6 @@ class TVAE:
         )
         self.optimizer = optim.Adam(parameters, lr=0.001)
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-    def sample(self, z):
-        z = torch.FloatTensor(z)
-        ret_t = self.decoder_bin(z)
-        return torch.bernoulli(ret_t).detach().numpy()
-
-    def propensity_score(self, z, t, sign=1):
-        z = torch.FloatTensor(z)
-        lh = self.decoder_bin(z).detach().numpy()
-        return np.exp(sign * np.sum(t * np.log(lh) + (1 - t) * np.log(1 - lh), axis=1))
 
     def neg_elbo(self, t):
         z_mean = self.encoder_mean(t)
@@ -579,17 +570,17 @@ class TVAE:
         ).sum(1)
         return (rec_loss + KL_divergence).mean(), rec_loss.mean(), KL_divergence.mean()
 
-    def rec_loss(self, t, nl):
+    def rec_loss(self, t):
         z_mean = self.encoder_mean(t)
         z_lv = self.encoder_logv(t)
 
         std_z = torch.randn(size=z_mean.size()).to(self.device)
-        sample_z = std_z * torch.exp(z_lv) * nl + z_mean
+        sample_z = std_z * torch.exp(z_lv) + z_mean
 
         rec_t = self.decoder_bin(sample_z)
         rec_loss = self.bceloss(rec_t, t).sum(1)
 
-        return rec_loss.sum()
+        return rec_loss.mean()
 
     def optimize(self, t):
         self.optimizer.zero_grad()
@@ -602,8 +593,6 @@ class TVAE:
         z_infer = self.encoder_mean(t)
         z_noise = torch.exp(self.encoder_logv(t))
         z_infer += ifn * torch.randn(size=z_infer.size()).to(self.device) * z_noise
-        # print(torch.cat((self.encoder_mean(t_obsx), torch.exp(self.encoder_logv(t_obsx))), 1).detach().numpy())
-        z_infer = z_infer.detach().numpy()
         return z_infer
 
 

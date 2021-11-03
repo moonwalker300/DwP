@@ -28,13 +28,13 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--cevaelr", type=float, default=0.00005, help="CEVAE learning rate")
 parser.add_argument("-l", type=float, default=0.001, help="learning rate")
 parser.add_argument("-decay", type=float, default=0.000)
-parser.add_argument("--latdim", type=int, default=4, help="Latent Dimension")
+parser.add_argument("--latdim", type=int, default=5, help="Latent Dimension")
 parser.add_argument("--obsm", type=int, default=0, help="Observed Dimension")
 parser.add_argument("--ycof", type=float, default=0.5, help="Y cof")
 parser.add_argument("--mask", type=int, default=0, help="Mask ObsX")
 parser.add_argument("--ylayer", type=int, default=50, help="Y Layer Dimension")
 parser.add_argument("--nlayer", type=int, default=50, help="N Layer Dimension")
-parser.add_argument("--stop", type=int, default=2000, help="Stop Epochs")
+parser.add_argument("--stop", type=int, default=5000, help="Stop Epochs")
 args = parser.parse_args()
 lr = args.l
 cevae_lr = args.cevaelr
@@ -44,13 +44,13 @@ stop = args.stop
 # np.set_printoptions(threshold=10000)
 # np.set_printoptions(suppress=True)
 n = 10000  # 样本数量
-m = 4  # Confounder维度
+m = 5  # Confounder维度
 p = 20  # Treatment维度
 noise_dim = 10  # Observed Noise维度
 new_data = False # 是否重新生成Simulation Data
 obs_idx = list(range(args.obsm))
 # Observed Covariate包括一部分Observed Confounder+Noisy Variable
-name = "Obs_confounder4_n10_t20_cor00_logit10_2"  # Simulation Data的名字
+name = "Obs_confounder5_n10_t20_cor02_logit08_2"  # Simulation Data的名字
 data = SimDataset(n, m, p, obs_idx, noise_dim, new_data, name)
 
 x, t, y, obs_x = data.getTrainData()
@@ -80,7 +80,7 @@ y_layers = 3
 y_hidden = args.ylayer
 epochs = 3000
 batch_size = 1024
-rep_times = 5
+rep_times = 10
 m1 = []
 m2 = []
 m3 = []
@@ -405,7 +405,7 @@ for rep in range(rep_times):
     filelog.log(colored("== Direct Regression: Training all ==".format(rep + 1), "blue"))
     infer_x = obs_x.copy()
     pre_test = PredictTest(infer_x.shape[1], p, 
-            learning_rate=0.001, hidden_dim=y_hidden, n_layers=y_layers).to(device)
+            learning_rate=0.005, hidden_dim=y_hidden, n_layers=y_layers).to(device)
 
     last_loss = 100000
     for ep in range(epochs * 2):

@@ -1,0 +1,7 @@
+#!/bin/bash
+python main_deconfounder.py --obsm 3 --ylayer 10
+python main_deconfounder.py --obsm 4 --ylayer 10
+python main_deconfounder.py --obsm 5 --ylayer 10
+python main_deconfounder.py --obsm 3 --ylayer 20
+python main_deconfounder.py --obsm 4 --ylayer 20
+python main_deconfounder.py --obsm 5 --ylayer 20

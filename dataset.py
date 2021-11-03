@@ -7,15 +7,15 @@ class SimDataset:
         if ifnew:
             # mean和covs是confounder生成的mean和covs
             means = np.zeros(x_dim)
-            covs = np.eye(x_dim) * 1.0 + 0.0
+            covs = np.eye(x_dim) * 0.8 + 0.2
             # noise_mean和noise_covs是noise variable生成的mean和covs
             x = np.random.multivariate_normal(means, covs, sample_size)
-            noise = np.random.normal(0.0, 1.0, size = [sample_size, noise_dim])
-            for i in range(noise_dim):
-                noise[:, i] = noise[:, 0]
+            noise_means = np.zeros(noise_dim)
+            noise_covs = np.eye(noise_dim) * 0.2 + 0.8
+            noise = np.random.multivariate_normal(noise_means, noise_covs, sample_size)
             thres_hold = 1.8
             mul_cof = 0.2
-            logit_cof = 1.0
+            logit_cof = 0.8
             cof_t = np.random.randn(x_dim, t_dim)
             prob = x.dot(cof_t) * logit_cof
             # 这两行无所谓，看一下T生成的bias程度而已
@@ -24,7 +24,7 @@ class SimDataset:
 
             prob += np.random.normal(0, thres_hold, size=prob.shape)
             t = (0 < prob).astype(np.int32)
-            cof_y = np.random.normal(0, 1, size=[x_dim, t_dim]) + cof_t + 1.0
+            cof_y = np.random.normal(0, 1, size=[x_dim, t_dim]) / 2 + cof_t + 0.5
             print(((cof_t * cof_y).sum()) / (np.sqrt((cof_t * cof_t).sum()) * np.sqrt((cof_y * cof_y).sum())))
             tmp = x.dot(cof_y)
             y = np.sum(tmp * t, axis=1) * mul_cof
@@ -37,7 +37,7 @@ class SimDataset:
             y_test = np.sum(tmp * t_test, axis=1) * mul_cof
 
             x_out_test = np.random.multivariate_normal(means, covs, sample_size)
-            noise_out_test = np.random.uniform(0, 1, size = [sample_size, noise_dim])
+            noise_out_test = np.random.multivariate_normal(noise_means, noise_covs, sample_size)
             for i in range(noise_dim):
                 noise_out_test[:, i] = noise_out_test[:, 0]
             t_out_test = ((0 < np.random.normal(0, 1, size=[sample_size, t_dim])) * 0).astype(

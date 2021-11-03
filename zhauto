@@ -1,6 +1,7 @@
 #!/bin/bash
-python main.py --obsm 0
-python main.py --obsm 1
-python main.py --obsm 2
-python main.py --obsm 3
-python main.py --obsm 4
+python main_deconfounder.py --obsm 0 --ylayer 10
+python main_deconfounder.py --obsm 1 --ylayer 10
+python main_deconfounder.py --obsm 2 --ylayer 10
+python main_deconfounder.py --obsm 0 --ylayer 20
+python main_deconfounder.py --obsm 1 --ylayer 20
+python main_deconfounder.py --obsm 2 --ylayer 20
